@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/Twitter post - 1.png" alt=""><figcaption></figcaption></figure>
 
-## Your companion for quiet growth
+## Your companion for quiet growth.
 
 Mamo is your personal finance companion that helps track, grow, and understand your money — without the noise, jargon, and complexity.
 
@@ -29,7 +29,7 @@ You stay in control, always. But without the overwhelming complexity.
 
 ## Why Mamo exists
 
-We believe in smart growth that's accessible to everyone.&#x20;
+We believe in smart growth that's accessible to everyone.
 
 Mamo was built for the many, not the few. For anyone who wants to build wealth one habit at a time, without turning it into another job. It's not about chasing the next big thing. It's about steady wins, consistent habits, and the power of compounding for everyone.
 
