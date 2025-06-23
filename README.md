@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/Twitter post - 1.png" alt=""><figcaption></figcaption></figure>
 
-## Your companion for quiet growth.
+## YOUR COMPANION FOR QUIET GROWTH
 
 Mamo is your personal finance companion that helps track, grow, and understand your money — without the noise, jargon, and complexity.
 
