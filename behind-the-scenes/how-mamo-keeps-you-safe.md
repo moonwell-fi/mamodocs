@@ -6,7 +6,7 @@ Mamo is simple on the surface and secure at the core. It was built so security n
 
 There are no confusing rules, only thoughtful security that works quietly in the background.
 
-## 🛡️ Self-custody, no exceptions
+### 🛡️ Self-custody, no exceptions
 
 When you deposit into Mamo, funds do not go into a communal pool or an opaque account. They flow directly into a personal smart contract vault that belongs to your wallet alone, similar to a safe deposit box where only your key works.
 
@@ -14,7 +14,7 @@ Mamo can guide your funds but never take them. Every action, whether it is a dep
 
 Your money remains accessible at all times. If Mamo is ever offline, you can still access your funds directly through any standard wallet or block explorer. There is no scenario where Mamo holds your funds. We build the rails and you steer the train.
 
-## 🔐 Security by design
+### 🔐 Security by design
 
 Security is built into every part of Mamo’s systems, not added as an afterthought.
 
@@ -27,7 +27,7 @@ Security is built into every part of Mamo’s systems, not added as an afterthou
 * **Fail-safe access**\
   Your vault is a transparent smart contract on the Base network. Even if Mamo were to go offline, you would retain 100% control of your balance using any Ethereum-compatible wallet.
 
-## 👀 Transparency
+### 👀 Transparency
 
 Financial stress often comes from hidden rules and unclear terms. Mamo keeps things clear:
 
@@ -35,7 +35,7 @@ Financial stress often comes from hidden rules and unclear terms. Mamo keeps thi
 * No lockups preventing withdrawals
 * No unexpected changes disrupting your progress
 
-## 🧠 Smart protection for your earnings
+### 🧠 Smart protection for your earnings
 
 Earning yield is valuable, but keeping it safe is even more important. When Mamo converts bonus tokens such as WELL or MORPHO back into USDC or cbBTC, three layers of safety are applied:
 
@@ -43,7 +43,7 @@ Earning yield is valuable, but keeping it safe is even more important. When Mamo
 2. [**Chainlink**](https://chain.link/) **oracles** act as independent price feeds, halting any swap when market prices deviate from fair value
 3. **Tight slippage limits** ensure you do not lose value during volatile price swings. If conditions are not right, Mamo waits before converting your rewards
 
-## ⚖️ Honest about risk
+### ⚖️ Honest about risk
 
 All investing carries risk. Mamo is upfront about what those risks are:
 
