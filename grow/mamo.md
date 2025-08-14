@@ -20,6 +20,8 @@ Earnings are distributed weekly during **The Mamo Drop** and can be automaticall
 * Choose between auto-compounding or custom allocation
 * No lock-up periods
 
+
+
 ***
 
 ## Revenue Sources
@@ -43,6 +45,8 @@ As new pairs are added, your earning potential increases.
 
 Each week, Mamo distributes earned fees to MAMO Account depositors. This event is called **The Mamo Drop** and is announced on X - [@mamo\_agent](https://x.com/mamo_agent), with details on the exact amount of each reward token.
 
+
+
 ***
 
 ## Compounding Options
@@ -59,3 +63,5 @@ Each week, Mamo distributes earned fees to MAMO Account depositors. This event i
 * All rewards except cbBTC are compounded into more MAMO
 * cbBTC rewards are sent to your Bitcoin Account
 * Allows you to grow both your MAMO and Bitcoin balances
+
+<figure><img src="../.gitbook/assets/bitcointoggle - 01.gif" alt="" width="563"><figcaption></figcaption></figure>
