@@ -4,7 +4,7 @@ Mamo is built to feel simple. That simplicity is intentional. It comes from smar
 
 Whether you’re growing stablecoins in the USDC Account or building your Bitcoin stack with cbBTC, Mamo takes care of the complexity so you can focus on the bigger picture.
 
-## How Mamo works
+## How Mamo Works
 
 1. **Account creation**\
    When you open a Mamo Account (USDC, cbBTC, MAMO), Mamo deploys dedicated smart contracts linked directly to your wallet. You keep full control of your funds. Mamo never takes custody, and only you can move them.
