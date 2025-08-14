@@ -4,6 +4,8 @@ description: Smart growth for your Bitcoin stack
 
 # 🟠 Bitcoin
 
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 ## What is the Bitcoin Account?
 
 The Mamo Bitcoin Account grows your Bitcoin stack quietly in the background. Deposit **cbBTC** — Bitcoin backed 1:1 by BTC held in Coinbase custody — and Mamo automatically allocates it where it can earn the most, collecting borrower interest and reward tokens that are reinvested into your balance.
@@ -21,7 +23,7 @@ When you deposit cbBTC, Mamo allocates it between two trusted destinations on [*
 | <img src="../.gitbook/assets/moonwell-logo (1).svg" alt="" data-size="line"> [**Moonwell**](https://moonwell.fi/) **—** [**Moonwell cbBTC Core Market**](https://moonwell.fi/markets/supply/base/cbbtc) **(**[**Base**](https://www.base.org/)**)** |
 | <img src="../.gitbook/assets/image (1) (1).png" alt="" data-size="line"> [**Morpho**](https://morpho.org/) **—** [**Moonwell cbBTC Frontier Vault**](https://moonwell.fi/vaults/deposit/base/mwcbbtc) **(**[**Base**](https://www.base.org/)**)**   |
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Mamo Bitcoin Account</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Mamo Bitcoin Account</p></figcaption></figure>
 
 ## Two income streams, one simple experience
 
