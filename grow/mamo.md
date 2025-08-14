@@ -6,7 +6,7 @@ description: Deposit MAMO to earn protocol revenue.
 
 ## What is the MAMO Account?
 
-A MAMO Account lets you deposit MAMO tokens and earn a share of Mamo’s platform revenue. This revenue comes from trading fees on Aerodrome, the largest decentralized exchange on Base.
+A MAMO Account lets you deposit MAMO tokens and earn a share of Mamo’s platform revenue. This revenue comes from trading fees on [**Aerodrome**](https://aerodrome.finance/), the largest decentralized exchange on Base.
 
 Earnings are distributed weekly during **The Mamo Drop** and can be automatically compounded into more MAMO or directed to other accounts, depending on your settings.
 
@@ -43,7 +43,7 @@ As new pairs are added, your earning potential increases.
 
 ### Weekly Distribution
 
-Each week, Mamo distributes earned fees to MAMO Account depositors. This event is called **The Mamo Drop** and is announced on X - [@mamo\_agent](https://x.com/mamo_agent), with details on the exact amount of each reward token.
+Each week, Mamo distributes earned trading fees to MAMO Account depositors. This event is called **The Mamo Drop** and is announced on X - [@mamo\_agent](https://x.com/mamo_agent), with details on the exact amount of each reward token.
 
 
 
