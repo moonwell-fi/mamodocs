@@ -1,35 +1,29 @@
 # 📖 The Story Behind Mamo
 
-## The story behind Mamo
+We began with a simple question: **Why does growing your money feel so complicated when it should not have to be?**
 
-We started with a simple question: **Why does growing your money feel so complicated when it shouldn't have to be?**
+In a world full of financial dashboards and apps that promise everything but often deliver confusion, we wanted something different. Not another tool that forces you to become a financial expert just to participate, but something quieter. Something that works in the background while you live your life, because you already have enough on your plate.
 
-In a world crowded with financial dashboards and apps that promise everything but deliver confusion, we wanted something different. Not another tool demanding you become a financial expert just to participate. Something quieter. Something that works in the background while you live your life. Because you've got enough on your plate.
+So we built Mamo, a personal finance companion designed for steady growth and quiet confidence. A system that makes wealth-building feel achievable for everyone, not just those who speak the language of finance.
 
-So we built Mamo — your financial companion for growing wealth. A system built on quiet confidence and steady progress. One that makes wealth-building feel achievable for everyone, not just those who speak the language of finance.
+## **Built from experience, backed by intention**
 
-## **Built from experience. Backed by intention.**
+Mamo’s journey began in 2020, when the world paused and daily routines changed.
 
-Mamo's journey began in 2020, when the world paused and routines reset.
+During this time, founder Luke Youngblood began exploring smarter ways to grow his money. Not through chasing trends or staring at screens all day, but through calm, consistent systems that compound over time.
 
-During this time, founder Luke Youngblood started exploring smarter ways to grow his money. Not through chasing trends or watching screens all day, but through calm, steady systems that compound over time.&#x20;
+As he discovered what worked, friends noticed. Some suggested starting a fund, but Luke had a different vision.
 
-As he discovered what worked, friends took notice. Some suggested starting a fund, but Luke had a different vision.
-
-He didn't want to manage people's money. He wanted to create a companion that helped people grow it themselves — no spreadsheets, no crypto speak, no gatekeepers. Because building wealth shouldn't require insider knowledge. It should be accessible to anyone with a phone and the desire to begin.
+He did not want to manage people’s money. He wanted to create a companion that helped people grow it themselves — without spreadsheets, without confusing crypto jargon, and without gatekeepers. Because building wealth should not require insider knowledge. It should be accessible to anyone with a phone and the desire to begin.
 
 ## From idea to action
 
-That vision materialized in 2025, at the [**Coinbase Developer AI Hackathon**](https://x.com/CoinbaseDev/status/1886468701689631006). Luke collaborated with engineers from leading tech companies to build what would become Mamo — an AI companion that quietly grew your portfolio while explaining everything in human terms.
+That vision took shape in 2025 at the [**Coinbase Developer AI Hackathon**](https://x.com/CoinbaseDev/status/1886468701689631006). Luke teamed up with engineers from leading technology companies to create what would become Mamo, an AI companion that quietly grows your money while explaining everything in human terms.
 
 The prototype won first place.
 
-But more importantly, it resonated with people.
+More importantly, it resonated with people. They were not looking for more complexity. They wanted something that simply works in the background, a system built for the many rather than the few.
 
-They weren't looking for more complexity. They wanted something that just works in the background. A system built for the many, not the few.
+## Where we are going
 
-## Where we're going
-
-Mamo is just getting started.
-
-We're building a companion that can help anyone build wealth through smart, human-first routines. Where you're in control, always. Where steady wins and one habit at a time creates the foundation for compounding for everyone.
+Mamo is only getting started. We are building a companion that helps anyone grow wealth through smart, human-first routines. You remain in control at all times. Steady wins, and one habit at a time can create the foundation for compounding growth for everyone.
