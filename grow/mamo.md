@@ -42,6 +42,7 @@ You earn from trading activity across multiple Aerodrome pools:
 * MAMO/ZORA
 * MAMO/KTA
 * MAMO/cbXRP
+* MAMO/TOSHI
 
 As new pairs are added, your earning potential increases.
 
