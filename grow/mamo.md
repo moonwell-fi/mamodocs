@@ -48,7 +48,7 @@ As new pairs are added, your earning potential increases.
 
 ### Weekly Distribution
 
-Each week, Mamo distributes trading fees earned from these Aerodrome pools to MAMO Account depositors. Mamo updates reward rates and announces the breakdown of tokens to be distributed during an event called **The Mamo Drop. It** is announced on X - [@mamo\_agent](https://x.com/mamo_agent). Rewards are then steamed to your account(s) continuously for the rest of the week.
+Each week, Mamo distributes trading fees earned from these Aerodrome pools to MAMO Account depositors. Mamo updates reward rates and announces the breakdown of tokens to be distributed during an event called **The Mamo Drop**. It is announced on X - [@mamo\_agent](https://x.com/mamo_agent). Rewards are then steamed to your account(s) continuously for the rest of the week.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
