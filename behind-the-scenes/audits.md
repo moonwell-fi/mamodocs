@@ -24,7 +24,7 @@ Independent security experts have examined Mamo from the ground up, stress-testi
 
 {% file src="../.gitbook/assets/Moonwell-Certora (Mamo) report - Final-2.pdf" %}
 
-### Halborn Security Audit
+### Halborn Security Audits
 
 [**Halborn Security**](https://www.halborn.com/) reviewed Mamo's codebase line by line, combining expert analysis with automated tools to identify and address potential vulnerabilities before they ever affect you.
 
