@@ -29,7 +29,7 @@ When you deposit USDC, Mamo allocates it between two trusted destinations on [**
   Borrowers pay interest to access your USDC, creating steady earnings that flow directly into your balance.
 * **Reward Tokens**\
   You also earn extra incentives — WELL tokens from Moonwell and MORPHO tokens from Morpho. Once these rewards reach approximately $5 in value, Mamo automatically converts them into USDC, adding them to your balance.
-  * No token juggling or manual swaps — just more USDC, quietly compounded back i
+  * No token juggling or manual swaps, just more USDC, quietly compounded back into your balance.
 
 ## How it works behind the scenes
 
