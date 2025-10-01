@@ -12,7 +12,7 @@ The MAMO Account lets you deposit MAMO tokens and earn a share of Mamo’s platf
 
 Earnings are distributed weekly during **The Mamo Drop** and can be automatically compounded into more MAMO or directed to other accounts, depending on your settings.
 
-Rewards are streamed to your account continuously throughout the week, not given in a single lump sum. The total reward rates update every Tuesday. All you need to do is deposit MAMO to start earning immediately.
+Rewards are streamed to your account continuously throughout the week, not given in a single lump sum. The total reward rates update every Wednesday. All you need to do is deposit MAMO to start earning immediately.
 
 ### Benefits
 
