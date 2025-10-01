@@ -45,6 +45,7 @@ You earn from trading activity across multiple Aerodrome pools:
 * MAMO/TOSHI
 * MAMO/noice
 * MAMO/KAITO
+* MAMO/BMX
 
 As new pairs are added, your earning potential increases.
 
