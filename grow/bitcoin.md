@@ -4,7 +4,7 @@ description: Smart growth for your Bitcoin stack
 
 # 🟠 Bitcoin
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## What is the Bitcoin Account?
 
@@ -18,10 +18,10 @@ The Mamo Bitcoin Account grows your Bitcoin stack quietly in the background. Dep
 
 When you deposit cbBTC, Mamo allocates it between two trusted destinations on [**Base**](https://www.base.org/). Mamo monitors both in real-time and automatically moves your funds to whichever is earning more.
 
-| Mamo Bitcoin Account                                                                                                                                                                                                                                |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="../.gitbook/assets/moonwell-logo (1).svg" alt="" data-size="line"> [**Moonwell**](https://moonwell.fi/) **—** [**Moonwell cbBTC Core Market**](https://moonwell.fi/markets/supply/base/cbbtc) **(**[**Base**](https://www.base.org/)**)** |
-| <img src="../.gitbook/assets/image (1) (1).png" alt="" data-size="line"> [**Morpho**](https://morpho.org/) **—** [**Moonwell cbBTC Frontier Vault**](https://moonwell.fi/vaults/deposit/base/mwcbbtc) **(**[**Base**](https://www.base.org/)**)**   |
+| Mamo Bitcoin Account                                                                                                                                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="../.gitbook/assets/moonwell-logo (1).svg" alt="" data-size="line"> [**Moonwell**](https://moonwell.fi/) **—** [**Moonwell cbBTC Core Market**](https://moonwell.fi/markets/supply/base/cbbtc) **(**[**Base**](https://www.base.org/)**)**   |
+| <img src="../.gitbook/assets/image (1) (1) (1).png" alt="" data-size="line"> [**Morpho**](https://morpho.org/) **—** [**Moonwell cbBTC Frontier Vault**](https://moonwell.fi/vaults/deposit/base/mwcbbtc) **(**[**Base**](https://www.base.org/)**)** |
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Mamo Bitcoin Account</p></figcaption></figure>
 

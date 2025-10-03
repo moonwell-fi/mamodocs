@@ -53,7 +53,7 @@ As new pairs are added, your earning potential increases.
 
 Each week, Mamo distributes trading fees earned from these Aerodrome pools to MAMO Account depositors. Mamo updates reward rates and announces the breakdown of tokens to be distributed during an event called **The Mamo Drop**. It is announced on X - [@mamo\_agent](https://x.com/mamo_agent). Rewards are then streamed to your account(s) continuously for the rest of the week.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -61,7 +61,7 @@ Each week, Mamo distributes trading fees earned from these Aerodrome pools to MA
 
 ## Reward Compounding Options
 
-### Auto-Compounding (Default)
+### Compound
 
 * All rewards are converted into MAMO automatically
 * No manual action required
@@ -70,10 +70,8 @@ Each week, Mamo distributes trading fees earned from these Aerodrome pools to MA
 
 ### Reinvest (Grow your Bitcoin stack)
 
-* All rewards except cbBTC are compounded into more MAMO
+* All rewards, except cbBTC, are compounded into more MAMO
 * cbBTC rewards are sent to your Bitcoin Account
 * Allows you to grow both your MAMO and Bitcoin Account balances
 
-
-
-<figure><img src="../.gitbook/assets/bitcointoggle - 01.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

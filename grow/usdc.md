@@ -16,10 +16,10 @@ The Mamo USDC Account is a simple way to grow your stablecoins quietly in the ba
 
 When you deposit USDC, Mamo allocates it between two trusted destinations on [**Base**](https://www.base.org/). Mamo monitors both in real-time and automatically shifts your funds to whichever is earning more.
 
-| Mamo USDC Account                                                                                                                                                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="../.gitbook/assets/moonwell-logo (1).svg" alt="" data-size="line"> [**Moonwell**](https://moonwell.fi/) **—** [**Moonwell USDC Core Market**](https://moonwell.fi/markets/supply/base/usdc) **(**[**Base**](https://www.base.org/)**)** |
-| <img src="../.gitbook/assets/image (1) (1).png" alt="" data-size="line"> [**Morpho**](https://morpho.org/) **—** [**Moonwell USDC Flagship Vault**](https://moonwell.fi/vaults/deposit/base/mwusdc) **(**[**Base**](https://www.base.org/)**)**   |
+| Mamo USDC Account                                                                                                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="../.gitbook/assets/moonwell-logo (1).svg" alt="" data-size="line"> [**Moonwell**](https://moonwell.fi/) **—** [**Moonwell USDC Core Market**](https://moonwell.fi/markets/supply/base/usdc) **(**[**Base**](https://www.base.org/)**)**   |
+| <img src="../.gitbook/assets/image (1) (1) (1).png" alt="" data-size="line"> [**Morpho**](https://morpho.org/) **—** [**Moonwell USDC Flagship Vault**](https://moonwell.fi/vaults/deposit/base/mwusdc) **(**[**Base**](https://www.base.org/)**)** |
 
 <figure><img src="../.gitbook/assets/Twitter post - 23.png" alt=""><figcaption><p>Mamo USDC Account</p></figcaption></figure>
 
