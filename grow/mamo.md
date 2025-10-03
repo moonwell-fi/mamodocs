@@ -59,7 +59,7 @@ Each week, Mamo distributes trading fees earned from these Aerodrome pools to MA
 
 ***
 
-## Compounding Options
+## Reward Compounding Options
 
 ### Auto-Compounding (Default)
 
@@ -68,11 +68,11 @@ Each week, Mamo distributes trading fees earned from these Aerodrome pools to MA
 * Balance grows weekly through compounding
   * You must have earned at least 1 MAMO in order for the rewards to be compounded
 
-### Custom (Grow your Bitcoin stack)
+### Reinvest (Grow your Bitcoin stack)
 
 * All rewards except cbBTC are compounded into more MAMO
 * cbBTC rewards are sent to your Bitcoin Account
-* Allows you to grow both your MAMO and Bitcoin balances
+* Allows you to grow both your MAMO and Bitcoin Account balances
 
 
 
