@@ -32,7 +32,7 @@ Rewards are streamed to your account continuously throughout the week, not given
 
 ### Trading Fees
 
-You earn from trading activity across multiple Aerodrome pools:
+You earn from trading activity across multiple Aerodrome pools, including:
 
 * MAMO/cbBTC
 * MAMO/VIRTUAL
@@ -51,7 +51,7 @@ As new pairs are added, your earning potential increases.
 
 ### Weekly Distribution
 
-Each week, Mamo distributes trading fees earned from these Aerodrome pools to MAMO Account depositors. Mamo updates reward rates and announces the breakdown of tokens to be distributed during an event called **The Mamo Drop**. It is announced on X - [@mamo\_agent](https://x.com/mamo_agent). Rewards are then streamed to your account(s) continuously for the rest of the week.
+Each week, Mamo distributes trading fees earned from these Aerodrome pools to MAMO Account depositors. Mamo updates reward rates and announces the breakdown of tokens to be distributed during an event called **The Mamo Drop**. It is announced on X - [@mamo](https://x.com/mamo). Rewards are then streamed to your account continuously for the rest of the week.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
