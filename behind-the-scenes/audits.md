@@ -34,6 +34,10 @@ Independent security experts have examined Mamo from the ground up, stress-testi
 
 **August 2025** — [**Halborn Security Mamo Transfer and Earn Audit Report**](https://www.halborn.com/audits/moonwell/transfer-and-earn-d30370)
 
+**December 2025 — Halborn Security Mamo Strategy Implementation Audit Report**
+
+{% file src="../.gitbook/assets/Mamo Contracts _ SSC.pdf" %}
+
 ### Code4rena Bug Bounty Program
 
 Even after expert reviews, Mamo maintains an active bug bounty program with [**Code4rena**](https://code4rena.com/), offering up to $250,000 for responsibly disclosed security issues.
