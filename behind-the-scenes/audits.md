@@ -34,9 +34,7 @@ Independent security experts have examined Mamo from the ground up, stress-testi
 
 **August 2025** — [**Halborn Security Mamo Transfer and Earn Audit Report**](https://www.halborn.com/audits/moonwell/transfer-and-earn-d30370)
 
-**December 2025 — Halborn Security Mamo Strategy Implementation Audit Report**
-
-{% file src="../.gitbook/assets/Mamo Contracts _ SSC.pdf" %}
+**December 2025 —** [**Halborn Security Mamo Strategy Implementation Audit Report**](https://www.halborn.com/audits/moonwell/mamo-contracts-7c51a6)
 
 ### Code4rena Bug Bounty Program
 
