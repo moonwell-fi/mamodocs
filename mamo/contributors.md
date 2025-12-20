@@ -13,12 +13,8 @@ These contributors bring Mamo to life:
 * [**Luke Youngblood**](https://x.com/LukeYoungblood)
 * [**anajuliabit**](https://x.com/anajuliabit)
 * [**Chrizy**](https://x.com/heyitschrizzle)
-* [**Calvoney**](https://x.com/calvoney)
 * [**BProfiro**](https://x.com/bprofiro)
-* [**x0s0l**](https://x.com/x0s0l)
 * [**Avp**](https://x.com/0xavp)
-* [**Abe**](https://x.com/ich_bin_abe_2)
-* [**katherholt**](https://x.com/_katherholt)
 * [**danimimm**](https://x.com/danimimm)
 
 Mamo is also supported by a wider community of builders, designers, moderators, and advisors who actively shape its future. Their ideas, feedback, and contributions help ensure Mamo continues to grow in ways that serve everyone.
