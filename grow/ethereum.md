@@ -4,7 +4,7 @@ description: Smart growth for your Bitcoin stack
 
 # 🟣 Ethereum
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Your Ethereum Mamo v1.png" alt=""><figcaption></figcaption></figure>
 
 ## What is the Ethereum Account?
 
