@@ -12,10 +12,10 @@
 
 ## Grow
 
-* [🔵 USDC](grow/usdc.md)
-* [🟠 Bitcoin](grow/bitcoin.md)
-* [🟣 Ethereum](grow/ethereum.md)
-* [🟢 MAMO](grow/mamo.md)
+* [🔵 USD Coin (USDC)](grow/usd-coin-usdc.md)
+* [🟠 Bitcoin (cbBTC)](grow/bitcoin-cbbtc.md)
+* [🟣 Ethereum (ETH)](grow/ethereum-eth.md)
+* [🟢 Mamo (MAMO)](grow/mamo-mamo.md)
 
 ## Behind the Scenes
 
