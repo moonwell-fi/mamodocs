@@ -1,5 +1,5 @@
 ---
-description: Smart growth for your Bitcoin stack
+description: Your Ethereum, working smarter
 ---
 
 # 🟣 Ethereum
