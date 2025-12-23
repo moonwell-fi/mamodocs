@@ -6,15 +6,17 @@ description: Smart growth for your stablecoins
 
 ## What is the USDC Account?
 
-The Mamo USDC Account is a simple way to grow your stablecoins quietly in the background. Deposit USDC and Mamo automatically moves your funds to where they can earn more, collecting borrower interest and reward tokens that are reinvested into your balance.
+The Mamo USDC Account gives your stablecoins a clear purpose. You deposit USDC and Mamo puts it to work. Earnings come from borrower interest and market rewards, then flow back into your balance as more USDC. The process runs continuously without manual actions or ongoing decisions.
 
 {% hint style="info" %}
-[**USDC**](https://www.circle.com/usdc) (USD Coin) is a regulated stablecoin designed to maintain a 1:1 peg with the US dollar. It is issued by [**Circle**](https://www.circle.com/usdc) and fully backed by US dollars or their equivalents, making it as easy to hold and transfer as digital dollars — accessible to anyone with an internet connection.
+[**USDC**](https://www.circle.com/usdc) (USD Coin) is a regulated stablecoin by [**Circle**](https://www.circle.com/usdc). Each USDC maintains a 1:1 value with the US dollar and is fully backed by cash or cash equivalents. This makes USDC easy to hold, easy to move, and predictable in value.
 {% endhint %}
 
 ## How your money grows
 
-When you deposit USDC, Mamo allocates it between two trusted destinations on [**Base**](https://www.base.org/). Mamo monitors both in real-time and automatically shifts your funds to whichever is earning more.
+When you deposit USDC, Mamo allocates it across two trusted destinations on [**Base**](https://www.base.org/)**,** [**Moonwell**](https://moonwell.fi/) and [**Morpho**](https://morpho.org/). Borrowers access USDC liquidity from these platforms and pay interest in return. That interest becomes your earnings.
+
+Mamo monitors both destinations continuously and shifts USDC toward the option paying more. Allocation updates follow rate changes, not fixed schedules. You do not manage positions or compare rates yourself. Mamo handles that for you, automatically.
 
 | Mamo USDC Account                                                                                                                                                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -23,21 +25,42 @@ When you deposit USDC, Mamo allocates it between two trusted destinations on [**
 
 <figure><img src="../.gitbook/assets/Twitter post - 23.png" alt=""><figcaption><p>Mamo USDC Account</p></figcaption></figure>
 
-## Two income streams, one simple experience
+## What you earn
 
-* **Borrower Interest**\
-  Borrowers pay interest to access your USDC, creating steady earnings that flow directly into your balance.
-* **Reward Tokens**\
-  You also earn extra incentives — WELL tokens from Moonwell and MORPHO tokens from Morpho. Once these rewards reach approximately $5 in value, Mamo automatically converts them into USDC, adding them to your balance.
-  * No token juggling or manual swaps, just more USDC, quietly compounded back into your balance.
+Your USDC balance grows through borrower interest and reward tokens.
 
-## How it works behind the scenes
+Borrower interest accrues directly to your USDC balance as long as funds remain deposited. This provides steady, predictable growth tied to borrowing demand.
 
-* **Smart allocation**\
-  Mamo monitors real-time APYs and moves your USDC between Moonwell’s Core Market and Flagship Vault to capture the highest returns.
-* **Fair conversion**\
-  Reward tokens are converted to USDC using [**CowSwap**](https://swap.cow.fi/) with [**Chainlink**](https://chain.link/) price verification, ensuring fair market rates, not inflated prices.
-* **Auto-compounding**\
-  Interest and converted rewards are reinvested automatically, creating interest on top of interest without any manual steps.
-* **Always accessible**\
-  Need your funds? Withdraw anytime. No lockups, no waiting periods, no complicated rules. Add, pause, or withdraw whenever you like. It's your money, you decide what suits you best.
+You also receive WELL and MORPHO rewards from the underlying market and vault. Once you earn reward of $5 dollars in value, Mamo will convert them into USDC and adds them to your balance. Rewards never require claiming. Everything becomes more USDC.
+
+## How compounding works
+
+Interest and converted rewards automatically reinvest into your USDC balance. Each increase earns alongside your original deposit. Growth compounds continuously without input from you.
+
+Mamo tracks real time rates across the market and vault and reallocates only when conditions increase or decrease. This keeps your Bitcoin positioned where earnings stay higher without constant movement or tuning.
+
+## How reward conversions are handled
+
+WELL and MORPHO reward tokens convert into USDC using verified market price checks to keep conversions aligned with fair market value before compounding. Converted USDC flows straight back into your balance and continues earning.
+
+## Security and control
+
+Your USDC stays under your control from start to finish. Mamo never takes custody. Funds move into a personal smart contract vault controlled by you.
+
+You decide when to add funds, pause deposits, or withdraw. No lockups apply.
+
+## Access anytime
+
+Withdraw USDC at any time. No waiting periods. No penalties. Pause or resume based on your schedule.
+
+***
+
+## At a glance
+
+* Deposit USDC.
+* Mamo allocates your funds to where it earns the most.
+* Interest and rewards increase your balance.
+* Rewards convert into USDC automatically.
+* Control stays with you.
+
+Your USDC, earning steadily in the background.

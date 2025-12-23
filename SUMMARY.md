@@ -14,6 +14,7 @@
 
 * [🔵 USDC](grow/usdc.md)
 * [🟠 Bitcoin](grow/bitcoin.md)
+* [🟣 Ethereum](grow/ethereum.md)
 * [🟢 MAMO](grow/mamo.md)
 
 ## Behind the Scenes
