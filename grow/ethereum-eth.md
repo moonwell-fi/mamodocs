@@ -2,7 +2,7 @@
 description: Your Ethereum, working smarter
 ---
 
-# 🟣 Ethereum
+# 🟣 Ethereum (ETH)
 
 <figure><img src="../.gitbook/assets/Your Ethereum Mamo v1.png" alt=""><figcaption></figcaption></figure>
 
@@ -16,7 +16,7 @@ Control stays with you throughout the entire experience. You choose when to add 
 
 After you deposit ETH, Mamo allocates your balance across two established lending destinations on [**Base**](https://www.base.org/)**,** [**Moonwell**](https://moonwell.fi/) and [**Morpho**](https://morpho.org/). Both options serve the same purpose. They let borrowers access ETH in exchange for fees. Those fees flow back to depositors as earnings. Mamo continuously monitors rates across both destinations and shifts your ETH toward the option that pays more.
 
-| Mamo Bitcoin Account                                                                                                                                                                                                                              |
+| Mamo Ethereum Account                                                                                                                                                                                                                             |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="../.gitbook/assets/moonwell-logo (1).svg" alt="" data-size="line"> [**Moonwell**](https://moonwell.fi/) **—** [**Moonwell ETH Core Market**](https://moonwell.fi/markets/supply/base/eth) **(**[**Base**](https://www.base.org/)**)**   |
 | <img src="../.gitbook/assets/image (1) (1) (1).png" alt="" data-size="line"> [**Morpho**](https://morpho.org/) **—** [**Moonwell ETH Flagship Vault**](https://moonwell.fi/vaults/deposit/base/mweth) **(**[**Base**](https://www.base.org/)**)** |
