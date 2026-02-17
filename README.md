@@ -25,7 +25,7 @@ You remain in control, but without the overwhelming complexity.
 * Keeps you in control. Add, pause, withdraw anytime with no lockups and no confusing rules.
 * Works quietly alongside your life, without demanding center stage
 
-### Why Mamo Exists
+### Why Mamo exists
 
 We believe in smart growth that is accessible to everyone.
 
