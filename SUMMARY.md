@@ -2,8 +2,7 @@
 
 ## Mamo
 
-* [👋 Introducing Mamo](README.md)
-* [👋 Welcome to Mamo](mamo/readme-1.md)
+* [👋 Welcome to Mamo](README.md)
 * [🤝 The Mamo Difference](mamo/the-mamo-difference.md)
 * [👥 Who Mamo Helps](mamo/who-mamo-helps.md)
 * [📖 The Story Behind Mamo](mamo/the-story-behind-mamo.md)
