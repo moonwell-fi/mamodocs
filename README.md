@@ -22,11 +22,11 @@ You already have enough on your plate. That is why Mamo handles the heavy liftin
 
 Mamo is a finance companion, not a finance tool.
 
-A tool waits for you to use it. A companion works alongside you. The difference matters because most people do not want another app to log into, another dashboard to watch, another decision to make. They want their money to be in good hands and easy to understand.
+Most financial tools demand constant attention. They expect you to make every decision, track every market movement, and somehow become an expert in the process.
 
-Mamo is the friend in the room who happens to know about money and explains things plainly when you ask. Your money is always a message away. Just ask Mamo.
+Mamo takes a different approach: a companion that works alongside you. Mamo is the friend in the room who happens to know about money and explains things plainly when you ask.
 
-<figure><img src=".gitbook/assets/CleanShot 2026-04-25 at 23.26.34.png" alt=""><figcaption></figcaption></figure>
+Through smart, human-first routines that help your money grow steadily, Mamo keeps you in control without the overwhelming complexity.
 
 
 
