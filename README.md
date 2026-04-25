@@ -10,7 +10,7 @@ A short guide to what Mamo is, who it is for, and how to start.
 
 Mamo helps you track, grow, and understand your money, without the noise, the jargon, or the complexity.
 
-It is built for people who want their money working smarter, not harder. People who believe building wealth should not require becoming a financial expert first.
+It is here for people who want their money working smarter, not harder. People who believe building wealth should not require becoming a financial expert first.
 
 You already have enough on your plate. That is why Mamo handles the heavy lifting in the background, allocating your money across trusted platforms to capture good available returns, while keeping you in full control at all times.
 
