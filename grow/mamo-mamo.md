@@ -66,7 +66,7 @@ Each week, Mamo distributes trading fees earned from these Aerodrome pools to MA
 * All rewards are converted into MAMO automatically
 * No manual action required
 * Balance grows weekly through compounding
-  * You must have earned at least 100 MAMO in order for the rewards to be compounded
+  * You must have earned at least 10 MAMO in order for the rewards to be compounded
 
 ### Reinvest (Grow your Bitcoin stack)
 
