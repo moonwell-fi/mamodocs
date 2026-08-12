@@ -19,9 +19,9 @@ Your money remains accessible at all times. If Mamo is ever offline, you can sti
 Security is built into every part of Mamo’s systems, not added as an afterthought.
 
 * **Independent audits**\
-  Trust comes from proof, not promises. Mamo has been independently audited by leading security firms, including [Certora](https://www.certora.com) and [Halborn Security](https://halborn.com). You can review the results in our Audits section.
+  Trust comes from proof, not promises. Mamo has been independently audited by leading security firms, including [**Certora**](https://www.certora.com) and [**Halborn Security**](https://halborn.com). You can review the results in our Audits section.
 * **$250K bug bounty**\
-  Our [Code4rena](https://code4rena.com) bug bounty program pays up to $250,000 to white-hat hackers who responsibly disclose vulnerabilities before bad actors can exploit them. Continuous incentives mean continuous scrutiny and stronger safety over time.
+  Our [**Sherlock**](https://audits.sherlock.xyz/bug-bounties/350) bug bounty program pays up to $250,000 to white-hat hackers who responsibly disclose vulnerabilities before bad actors can exploit them. Continuous incentives mean continuous scrutiny and stronger safety over time.
 * **Permissioned upgrades**\
   No silent contract migrations. Any upgrade requires your explicit approval. If you choose not to approve, nothing changes. No hidden moves, no surprises.
 * **Fail-safe access**\
@@ -39,8 +39,8 @@ Financial stress often comes from hidden rules and unclear terms. Mamo keeps thi
 
 Earning yield is valuable, but keeping it safe is even more important. When Mamo converts bonus tokens such as WELL or MORPHO back into USDC or cbBTC, three layers of safety are applied:
 
-1. [**CowSwap**](https://swap.cow.fi/) **batch auctions** prevent front-running and “sandwich” attacks
-2. [**Chainlink**](https://chain.link/) **oracles** act as independent price feeds, halting any swap when market prices deviate from fair value
+1. [CowSwap](https://swap.cow.fi/) **batch auctions** prevent front-running and “sandwich” attacks
+2. [Chainlink](https://chain.link/) **oracles** act as independent price feeds, halting any swap when market prices deviate from fair value
 3. **Tight slippage limits** ensure you do not lose value during volatile price swings. If conditions are not right, Mamo waits before converting your rewards
 
 ### ⚖️ Honest about risk

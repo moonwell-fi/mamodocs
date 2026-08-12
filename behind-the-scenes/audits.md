@@ -36,9 +36,9 @@ Independent security experts have examined Mamo from the ground up, stress-testi
 
 **December 2025 —** [**Halborn Security Mamo Strategy Implementation Audit Report**](https://www.halborn.com/audits/moonwell/mamo-contracts-7c51a6)
 
-### Code4rena Bug Bounty Program
+### Sherlock Bug Bounty Program
 
-Even after expert reviews, Mamo maintains an active bug bounty program with [**Code4rena**](https://code4rena.com/), offering up to $250,000 for responsibly disclosed security issues.
+Even after expert reviews, Mamo maintains an active bug bounty program with [**Sherlock**](https://audits.sherlock.xyz/bug-bounties/350), offering up to $250,000 for responsibly disclosed security issues.
 
 This invites hundreds of independent researchers to search for anything previous reviews might have missed.
 

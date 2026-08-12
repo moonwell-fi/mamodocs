@@ -45,10 +45,6 @@ If you have ever felt like personal finance was designed for someone else, with 
 
 You do not need a finance background or a strong opinion on the market. You only need to want a calmer relationship with your money.
 
-<figure><img src=".gitbook/assets/CleanShot 2026-04-25 at 23.22.04.png" alt=""><figcaption></figcaption></figure>
-
-
-
 ***
 
 ### How Mamo works
