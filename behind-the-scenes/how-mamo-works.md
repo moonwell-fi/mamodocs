@@ -2,7 +2,7 @@
 
 Mamo is built to feel simple. That simplicity is intentional. It comes from smart, automated systems working quietly in the background to keep your money safe, productive, and always within your control.
 
-Whether you’re growing stablecoins in the USDC Account, building your Bitcoin stack with cbBTC, or holding a basket of tokenized stocks in the Stocks Account, Mamo takes care of the complexity so you can focus on the bigger picture.
+Whether you’re growing stablecoins in the USDC Account, building your Bitcoin stack with cbBTC, or holding a portfolio of tokenized stocks in the Stocks Account, Mamo takes care of the complexity so you can focus on the bigger picture.
 
 ## How Mamo Works
 
