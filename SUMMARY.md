@@ -16,6 +16,7 @@
 * [🟠 Bitcoin (cbBTC)](grow/bitcoin-cbbtc.md)
 * [🟣 Ethereum (ETH)](grow/ethereum-eth.md)
 * [🟢 Mamo (MAMO)](grow/mamo-mamo.md)
+* [📈 Stocks](grow/stocks.md)
 
 ## Behind the Scenes
 
