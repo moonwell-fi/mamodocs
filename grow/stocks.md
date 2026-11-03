@@ -8,9 +8,9 @@ description: Stocks, managed for you
 
 ## What is Mamo Stocks?
 
-Mamo Stocks lets you hold a portfolio of [tokenized stocks](https://www.coinbase.com/en-au/tokenize) on [Base](https://www.base.org/). You choose the stocks and how much of each you want, deposit USDC, and Mamo keeps your portfolio on target. When a stock moves too far from where you set it, Mamo buys or sells to bring it back. You don’t place orders, watch prices or rebalance by hand.
+Mamo Stocks lets you own a portfolio of [tokenized stocks](https://www.coinbase.com/en-au/tokenize) on [Base](https://www.base.org/), managed for you. You choose the stocks and how much of each you want, deposit USDC, and Mamo keeps your portfolio on target. When a stock moves too far from where you set it, Mamo buys or sells to bring it back. You don’t place orders, watch prices or rebalance by hand.
 
-Unlike the USDC, Bitcoin, and Ethereum Accounts, your stocks portfolio does not earn interest. There is no APY. Its value rises and falls with the prices of the stocks you hold.
+Mamo Stocks doesn’t earn a savings rate like your USDC, Bitcoin and Ethereum do. Your portfolio rises and falls with the prices of the stocks you hold. It’s a calm, steady way to own stocks. It isn’t a way to earn interest.
 
 {% hint style="info" %}
 Each stock you hold with Mamo is a token issued by [Coinbase](https://www.coinbase.com) on Base, like AAPLc for Apple or NVDAc for Nvidia. Every token is backed 1-to-1 by a real share, held by a regulated custodian. They can be bought and sold any time, weekends included.
@@ -18,22 +18,68 @@ Each stock you hold with Mamo is a token issued by [Coinbase](https://www.coinba
 
 ## How it works
 
+### **1. Build your portfolio**
+
+Start by choosing the stocks you want to own. You can pick up to ten from the list in the app.
+
+Then decide how much of your portfolio goes into each one. These are your targets. Each stock needs at least 5%. You can also keep part of your portfolio in USDC as cash. Cash is optional and works like any other target. Everything adds up to 100%.
+
+For example:
+
+* Apple: 40%
+* Nvidia: 40%
+* Cash: 20%
+
+### **2. Deposit USDC**
+
+The minimum deposit is 100 USDC. Once your USDC arrives, Mamo buys your stocks to match your targets. With 1,000 USDC and the example above, that’s 400 USDC of Apple, 400 USDC of Nvidia and 200 USDC kept as cash.
+
+### **3. Mamo keeps your portfolio on target**
+
+Stock prices change every day, so your portfolio will inevitably move away from your targets. A stock that goes up takes up more of your portfolio. A stock that goes down takes up less.
+
+Mamo checks your portfolio all the time. Every stock has a range of 5 points either side of its target. With a 40% target, that range is 35% to 45%. As long as everything stays inside its range, Mamo leaves it alone. Once a stock moves outside its range, Mamo trades to bring it back.
+
+#### **What a rebalance looks like**
+
+Say Nvidia rises 30%. Your portfolio is now:
+
+* Apple: 400 USDC (35.7%)
+* Nvidia: 520 USDC (46.4%)
+* Cash: 200 USDC (17.9%)
+
+Nvidia is now 6.4 points above its target, which is outside its range. Mamo finds the stock that’s furthest over target and the one that’s furthest under. Here that’s Nvidia and Apple. Mamo then sells about 48 USDC of Nvidia and uses it to buy 48 USDC of Apple.
+
+After the trade:
+
+* Apple: 448 USDC (40%)
+* Nvidia: 472 USDC (42.1%)
+* Cash: 200 USDC (17.9%)
+
+Everything is back inside its range. Mamo trimmed the stock that had grown and added to the one that had fallen behind, without you doing anything.
+
+Mamo trades one pair at a time. When more than one stock is off target, Mamo repeats this until everything is back in range. Your cash is part of this too. If your cash grows too large, Mamo puts it to work in your stocks. If it drops too low, Mamo tops it back up.
+
+### **4. Add more any time**
+
+Each new deposit goes toward your targets. Mamo buys more of whatever is furthest below target, so new money helps bring your portfolio back into shape.
+
 You start by building a portfolio. Pick up to ten stocks from the supported list, give each a target weight of at least 5%, and decide how much to keep in USDC as cash. The weights add up to 100%. Then deposit USDC and Mamo buys the stocks to match your targets.
 
 From there, Mamo watches the portfolio continuously. Stock prices move, so the weights drift. When a position drifts more than 5 percentage points from its target, Mamo trades it back toward target. This tends to trim what has risen and add to what has fallen. New deposits are invested the same way. You can change your portfolio at any time, and Mamo will trade toward the new targets.
 
 Each pass, Mamo pairs the most overweight position, cash included, with the most underweight one and trades the smaller of the two gaps. It skips trades that are too small to be worth placing. In a small portfolio, especially one near the 100 USDC minimum, a position can therefore sit a few points outside the band for a while, most often right after you add a stock or when cash is slightly above target. This is expected. It clears on its own when prices move further, when you deposit again, or when a portfolio change makes the gap large enough to trade. Nothing is lost. The weights are just further from target until then.
 
-| Mamo Stocks Account                                                                                                                                                        |
+| Mamo Stocks                                                                                                                                                                |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Supported stocks:** AAPLc, AMZNc, GOOGLc, METAc, MSFTc, MSTRc, MUc, NVDAc, PLTRc, SNDKc, SPCXc, TSLAc                                                                    |
 | **Trading:** rebalances through [**CoW Protocol**](https://cow.fi/), sales on [**Aero**](https://app.aero.xyz/liquidity/pools) **(**[**Base**](https://www.base.org/)**)** |
 
 The supported list is set by Mamo and can grow or shrink over time. The app always shows the current list.
 
-## How your account changes in value
+## How your portfolio changes in value
 
-Your account is valued in USDC at all times. Its value is the sum of your stock holdings at current prices, plus the USDC you keep as cash.
+Your portfolio is valued in USDC (US dollars). Its value is the sum of your stock holdings at current prices, plus the USDC you keep as cash.
 
 Growth comes only from the stocks going up. If they go down, your balance goes down. Mamo does not add interest or rewards to this account, and there is no reward conversion step. What you hold is what you chose.
 
@@ -49,12 +95,12 @@ When the US stock market is closed, Mamo does not buy stocks. Deposits wait in U
 
 The Stocks Account charges a management fee of 1% per year on the account's value. The fee accrues continuously and is paid as the account trades and whenever you deposit or withdraw. There is no deposit fee and no withdrawal fee.
 
-| Limit                                 | Value       |
-| ------------------------------------- | ----------- |
-| Minimum account value after a deposit | 100 USDC    |
-| Maximum net deposits per account      | 25,000 USDC |
-| Stocks per portfolio                  | Up to 10    |
-| Minimum weight per stock              | 5%          |
+| Limit                                 | Value        |
+| ------------------------------------- | ------------ |
+| Minimum account value after a deposit | 100 USDC     |
+| Maximum net deposits per account      | 100,000 USDC |
+| Stocks per portfolio                  | Up to 10     |
+| Minimum weight per stock              | 5%           |
 
 Net deposits means USDC deposited minus USDC withdrawn. Gains do not count toward the cap.
 
