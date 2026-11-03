@@ -24,10 +24,10 @@ From there, Mamo watches the portfolio continuously. Stock prices move, so the w
 
 Each pass, Mamo pairs the most overweight position, cash included, with the most underweight one and trades the smaller of the two gaps. It skips trades that are too small to be worth placing. In a small portfolio, especially one near the 100 USDC minimum, a position can therefore sit a few points outside the band for a while, most often right after you add a stock or when cash is slightly above target. This is expected. It clears on its own when prices move further, when you deposit again, or when a portfolio change makes the gap large enough to trade. Nothing is lost. The weights are just further from target until then.
 
-| Mamo Stocks Account                                                                                                                                                   |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Supported stocks:** AAPLc, AMZNc, GOOGLc, METAc, MSFTc, MSTRc, MUc, NVDAc, PLTRc, SNDKc, SPCXc, TSLAc                                                               |
-| **Trading:** rebalances through [**CoW Protocol**](https://cow.fi/), sales on [**Aerodrome**](https://aerodrome.finance/) **(**[**Base**](https://www.base.org/)**)** |
+| Mamo Stocks Account                                                                                                                                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Supported stocks:** AAPLc, AMZNc, GOOGLc, METAc, MSFTc, MSTRc, MUc, NVDAc, PLTRc, SNDKc, SPCXc, TSLAc                                                                    |
+| **Trading:** rebalances through [**CoW Protocol**](https://cow.fi/), sales on [**Aero**](https://app.aero.xyz/liquidity/pools) **(**[**Base**](https://www.base.org/)**)** |
 
 The supported list is set by Mamo and can grow or shrink over time. The app always shows the current list.
 
