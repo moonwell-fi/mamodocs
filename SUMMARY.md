@@ -12,6 +12,7 @@
 
 ## Grow
 
+* [📈 Stocks](grow/stocks.md)
 * [🔵 USD Coin (USDC)](grow/usd-coin-usdc.md)
 * [🟠 Bitcoin (cbBTC)](grow/bitcoin-cbbtc.md)
 * [🟣 Ethereum (ETH)](grow/ethereum-eth.md)
