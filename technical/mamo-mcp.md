@@ -35,6 +35,10 @@ _Stocks are available only in eligible jurisdictions outside the United States._
 
 A complete stocks portfolio lifecycle, from creation through a full exit, has been tested on Base mainnet through Mamo MCP.
 
+
+
+***
+
 ### Connect your agent
 
 Use the setup instructions for your preferred client below. Where an installation button is available, it opens the client with the Mamo server details prefilled. You must still confirm the connection inside the client.
@@ -130,7 +134,11 @@ Any client that supports MCP over Streamable HTTP can connect using the same end
 https://mcp.mamo.bot/mcp
 ```
 
-The server card lists supported protocol versions and the current tool list.
+The [server card](https://mcp.mamo.bot/) lists supported protocol versions and the current tool list.
+
+
+
+***
 
 ### What your agent can do
 
@@ -236,6 +244,10 @@ Before signing, review the `to` address of each transaction call.
 
 The `get_account_details` tool lists the contracts used by your Accounts and portfolio. You can compare these with the Contract Addresses documentation.
 
+
+
+***
+
 ### Rate limits
 
 Rate limits apply per IP address.
@@ -247,6 +259,10 @@ Rate limits apply per IP address.
 | Account creation      | 5 per minute  |
 
 Requests above these limits receive an HTTP `429` response with a `Retry-After` value indicating when to try again.
+
+
+
+***
 
 ### What Mamo MCP does not do
 
@@ -269,6 +285,10 @@ Stocks do not earn an APY. Your portfolio’s value changes with the prices of t
 #### Swap assets
 
 Mamo MCP does not convert assets for you. If an action requires a different deposit asset, you must obtain that asset separately before proceeding.
+
+
+
+***
 
 ### Example requests
 
@@ -299,6 +319,10 @@ The agent checks your MAMO Account’s unclaimed rewards and prepares the claim 
 A stocks portfolio accepts USDC or supported stock tokens. Because Mamo MCP does not swap assets, the agent explains that you must first convert the rewards into an accepted asset.
 
 Once you have USDC in your wallet, the agent can preview and prepare the deposit into your portfolio.
+
+
+
+***
 
 ### Further information
 
