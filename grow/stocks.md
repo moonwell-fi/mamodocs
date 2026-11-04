@@ -16,6 +16,8 @@ Unlike Mamo’s USDC, Bitcoin, and Ethereum accounts, Mamo Stocks does not earn 
 
 Each stock is represented by a token issued by [Coinbase](https://www.coinbase.com/en-gb) on Base, such as AAPLc for Apple or NVDAc for Nvidia. Each token is backed 1:1 by a share held by a regulated custodian. These tokens can trade around the clock, including weekends, although Mamo applies additional restrictions to automated trading outside U.S. stock market hours.
 
+<figure><img src="../.gitbook/assets/mamo-stocks-1b-where-your-money-is (2).png" alt=""><figcaption></figcaption></figure>
+
 
 
 ***
@@ -23,6 +25,8 @@ Each stock is represented by a token issued by [Coinbase](https://www.coinbase.c
 ## How it works
 
 ### 1. Build your portfolio
+
+<figure><img src="../.gitbook/assets/mamo-stocks-1d-alt-build-your-own.png" alt=""><figcaption></figcaption></figure>
 
 Choose up to ten supported stocks and assign a target percentage to each. Every stock must have a target allocation of at least 5%.
 
@@ -43,6 +47,8 @@ The minimum deposit is 100 USDC. Mamo uses your deposit to purchase stocks accor
 If the U.S. stock market is closed, your deposit remains in USDC until the market opens and Mamo can purchase stocks.
 
 ### 3. Automated rebalancing
+
+<figure><img src="../.gitbook/assets/mamo-stocks-1e-rebalancing (1).png" alt=""><figcaption></figcaption></figure>
 
 As stock prices change, the percentage of your portfolio held in each stock changes too. For example, a stock with a 40% target allocation may grow to represent more than 40% of your portfolio if its price rises. Rebalancing brings these allocations back toward your targets. It follows your portfolio settings rather than a price rise or decline alone.
 
@@ -77,6 +83,8 @@ Ignoring trading costs, the portfolio becomes:
 All holdings are now within their permitted ranges. Rebalancing does not need to return every holding to its exact target.&#x20;
 
 Mamo trades one pair of holdings at a time and may perform additional trades when multiple holdings require adjustment. Cash is included in this process: Mamo can use excess cash to purchase stocks or sell stocks to replenish cash.
+
+<figure><img src="../.gitbook/assets/mamo-stocks-1f-cash (3).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Add funds
 
@@ -236,7 +244,7 @@ During this recovery period, automated trading is unavailable and USDC withdrawa
 
 ***
 
-### At a glance
+## At a glance
 
 * Build a portfolio of up to ten supported stocks, with an optional USDC cash allocation.
 * Deposit USDC and let Mamo purchase stocks according to your settings.
