@@ -173,18 +173,18 @@ These tools retrieve product information, wallet balances, holdings, and activit
 | `get_user_activity`      | Lists a wallet’s deposits, withdrawals, compounding activity, and stocks rebalances, with the newest activity first.                                                                     |
 | `get_balance_history`    | Shows how a USDC, Bitcoin, Ethereum, or MAMO Account balance has changed over a period of 1 to 60 days.                                                                                  |
 | `get_wallet_balances`    | Shows the assets a wallet holds on Base outside Mamo, along with the amounts its Accounts and portfolio are approved to transfer.                                                        |
-| `get_transaction_status` | Checks whether a transaction has confirmed and describes its outcome, including rebalances (`rebalanced`) and sales on Aero (`sold`).                                                    |
+| `get_transaction_status` | Checks whether a transaction has confirmed and describes its outcome, including rebalances (`rebalanced`) and sales on [Aero](https://aero.xyz/) (`sold`).                               |
 
 #### Previews and prepares
 
 For supported actions, your agent first previews the transaction, then prepares the unsigned calls for your wallet. The prepare step repeats the relevant checks using live data.
 
-| **Tools**                                       | **What they do**                                                                                                                                                                                   |
-| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `preview_deposit` → `prepare_deposit`           | Check a deposit, including ownership, balances, gas, token approvals, paused operations, and Stocks limits. Simulate the transaction, then prepare its unsigned calls.                             |
-| `preview_withdraw` → `prepare_withdraw`         | Check and simulate a withdrawal, then prepare its unsigned calls. A stocks portfolio can pay out in USDC by selling holdings on Aero, or transfer holdings directly through an in-kind withdrawal. |
-| `preview_stock_basket` → `prepare_stock_basket` | Check proposed stock allocations, then prepare the calls to create a stocks portfolio or update an existing portfolio’s allocations.                                                               |
-| `prepare_claim_rewards`                         | Prepare the unsigned call to claim a MAMO Account’s rewards.                                                                                                                                       |
+| **Tools**                                       | **What they do**                                                                                                                                                                                                        |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `preview_deposit` → `prepare_deposit`           | Check a deposit, including ownership, balances, gas, token approvals, paused operations, and Stocks limits. Simulate the transaction, then prepare its unsigned calls.                                                  |
+| `preview_withdraw` → `prepare_withdraw`         | Check and simulate a withdrawal, then prepare its unsigned calls. A stocks portfolio can pay out in USDC by selling holdings on [Aero](https://aero.xyz/), or transfer holdings directly through an in-kind withdrawal. |
+| `preview_stock_basket` → `prepare_stock_basket` | Check proposed stock allocations, then prepare the calls to create a stocks portfolio or update an existing portfolio’s allocations.                                                                                    |
+| `prepare_claim_rewards`                         | Prepare the unsigned call to claim a MAMO Account’s rewards.                                                                                                                                                            |
 
 Your wallet must sign the prepared transactions before they can proceed.
 
@@ -308,7 +308,7 @@ The deposit remains in USDC until Mamo begins managing the new portfolio and sto
 
 The agent uses `get_user_activity` to retrieve rebalancing activity for the past week.
 
-Each CoW Protocol trade appears as a separate entry showing the assets sold and purchased. The agent can use `get_transaction_status` to inspect an individual transaction, then `get_user_account` to show how your current allocations compare with their targets.
+Each [CoW Protocol](https://cow.fi/) trade appears as a separate entry showing the assets sold and purchased. The agent can use `get_transaction_status` to inspect an individual transaction, then `get_user_account` to show how your current allocations compare with their targets.
 
 #### Move rewards into a stocks portfolio
 
