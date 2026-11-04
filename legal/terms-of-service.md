@@ -1,3 +1,4 @@
 # 🖊️ Terms of Service
 
-{% file src="../.gitbook/assets/mamo-tos.pdf" %}
+{% file src="../.gitbook/assets/mamo-terms.pdf" %}
+
