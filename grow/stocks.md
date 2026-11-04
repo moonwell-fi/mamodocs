@@ -34,11 +34,11 @@ You can also allocate part of your portfolio to USDC as cash. Cash is optional a
 
 For example:
 
-| Holding   | Target allocation |
-| --------- | ----------------- |
-| Apple     | 40%               |
-| Nvidia    | 40%               |
-| USDC cash | 20%               |
+| **Holding** | **Target allocation** |
+| ----------- | --------------------- |
+| Apple       | 40%                   |
+| Nvidia      | 40%                   |
+| USDC cash   | 20%                   |
 
 ### 2. Deposit USDC
 
