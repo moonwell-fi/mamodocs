@@ -16,6 +16,8 @@ Unlike Mamo’s USDC, Bitcoin, and Ethereum accounts, Mamo Stocks does not earn 
 
 Each stock is represented by a token issued by [Coinbase](https://www.coinbase.com/en-gb) on Base, such as AAPLc for Apple or NVDAc for Nvidia. Each token is backed 1:1 by a share held by a regulated custodian. These tokens can trade around the clock, including weekends, although Mamo applies additional restrictions to automated trading outside U.S. stock market hours.
 
+***
+
 ## How it works
 
 ### 1. Build your portfolio
