@@ -58,6 +58,8 @@ Meta does not review custom connectors. Mamo MCP returns unsigned transactions, 
 
 #### Grok Bot
 
+<a href="https://grok.com/connectors" class="button primary">Open Grok connectors</a>
+
 Open the connectors page, select **New Connector → Custom**, and enter:
 
 * **Server URL:** `https://mcp.mamo.bot/mcp`
@@ -68,6 +70,8 @@ Custom connectors require a paid plan. On Grok Business and Enterprise, a team a
 The installation button opens the connectors page but does not prefill the server details.
 
 #### Claude
+
+<a href="https://claude.ai/customize/connectors?modal=add-custom-connector&#x26;connectorName=Mamo&#x26;connectorUrl=https%3A%2F%2Fmcp.mamo.bot%2Fmcp" class="button primary">Add Mamo to Claude</a>
 
 Go to **Settings → Connectors → Add custom connector** and enter:
 
@@ -88,6 +92,8 @@ claude mcp add --transport http mamo https://mcp.mamo.bot/mcp
 
 #### Cursor
 
+<a href="https://cursor.com/install-mcp?name=mamo&#x26;config=eyJ1cmwiOiJodHRwczovL21jcC5tYW1vLmJvdC9tY3AifQ%3D%3D" class="button primary">Add Mamo to Cursor</a>
+
 Use the installation button and select **Install**, or add the following configuration manually.
 
 Use `~/.cursor/mcp.json` to make the server available across projects, or `.cursor/mcp.json` to configure it for a single project.
@@ -105,6 +111,8 @@ Use `~/.cursor/mcp.json` to make the server available across projects, or `.curs
 If the file already contains other servers, add the `mamo` entry to its existing `mcpServers` object.
 
 #### VS Code
+
+<a href="https://vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522mamo%2522%252C%2522type%2522%253A%2522http%2522%252C%2522url%2522%253A%2522https%253A%252F%252Fmcp.mamo.bot%252Fmcp%2522%257D" class="button primary">Add Mamo to VS Code</a>
 
 Use the installation button and confirm the server, or run:
 
