@@ -8,9 +8,9 @@ description: Let your AI agent run your Mamo Accounts
 
 ### What is Mamo MCP?
 
-Mamo MCP connects compatible AI assistants, including [ChatGPT](https://chatgpt.com/), [Muse](https://ai.meta.com/muse/), [Grok Bot](https://x.ai/bot), and [Claude](https://claude.ai/), to your Mamo Accounts and stocks portfolio through the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro).
+Mamo MCP connects compatible AI agents, including [ChatGPT](https://chatgpt.com/), [Muse](https://ai.meta.com/muse/), [Grok Bot](https://x.ai/bot), and [Claude](https://claude.ai/), to your Mamo Accounts and stocks portfolio through the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro).
 
-Once connected, you can ask your assistant to check balances, review earnings, compare your stocks portfolio with its target allocations, or prepare a deposit or withdrawal using live data from [Base](https://www.base.org/). Your wallet remains in control. Mamo MCP holds no private keys and does not sign or broadcast transactions. When an action requires funds to move, the assistant checks it and prepares an unsigned transaction for your wallet to review. The transaction only proceeds when you sign.
+Once connected, you can ask your agent to check balances, review earnings, compare your stocks portfolio with its target allocations, or prepare a deposit or withdrawal using live data from [Base](https://www.base.org/). Your wallet remains in control. Mamo MCP holds no private keys and does not sign or broadcast transactions. When an action requires funds to move, the agent checks it and prepares an unsigned transaction for your wallet to review. The transaction only proceeds when you sign.
 
 Mamo MCP works with the same accounts and stock portfolio you use in the Mamo app:
 
@@ -35,7 +35,7 @@ _Stocks are available only in eligible jurisdictions outside the United States._
 
 A complete stocks portfolio lifecycle, from creation through a full exit, has been tested on Base mainnet through Mamo MCP.
 
-### Connect your assistant
+### Connect your agent
 
 Use the setup instructions for your preferred client below. Where an installation button is available, it opens the client with the Mamo server details prefilled. You must still confirm the connection inside the client.
 
@@ -132,21 +132,71 @@ https://mcp.mamo.bot/mcp
 
 The server card lists supported protocol versions and the current tool list.
 
-### What your assistant can do
+### What your agent can do
 
-Mamo MCP separates information requests from transaction preparation.
+Mamo MCP provides tools for learning about Mamo, reading live data, previewing actions, and preparing transactions for your wallet to sign.
 
-| Tool category | Purpose                                                                                               |
-| ------------- | ----------------------------------------------------------------------------------------------------- |
-| Knowledge     | Provide information about Mamo and how its Accounts and stocks portfolios work.                       |
-| Reads         | Retrieve balances, earnings, allocations, activity, and transaction status without changing anything. |
-| Previews      | Check a proposed action and simulate it on Base before preparing a transaction.                       |
-| Prepares      | Repeat the checks using live data and return unsigned transaction calls for your wallet.              |
-| Creation      | Guide you through opening an Account or creating a stocks portfolio.                                  |
+<table><thead><tr><th width="283.2506103515625">Tool category</th><th>Purpose</th></tr></thead><tbody><tr><td>Knowledge</td><td>Provide information about Mamo and how its accounts and stocks portfolios work.</td></tr><tr><td>Reads</td><td>Retrieve balances, earnings, allocations, activity, and transaction status without changing anything.</td></tr><tr><td>Previews</td><td>Check a proposed action and simulate it on Base before preparing a transaction.</td></tr><tr><td>Prepares</td><td>Repeat the checks using live data and return unsigned transaction calls for your wallet.</td></tr><tr><td>Creation</td><td>Guide you through opening an Account or creating a stocks portfolio.</td></tr></tbody></table>
 
-The server card provides the complete, current tool list.
+The [server card](https://mcp.mamo.bot/) provides the complete, current tool list.
 
-Opening a USDC, Bitcoin, Ethereum, or MAMO Account uses a separate three-step process. Creating a stocks portfolio follows a different flow: the assistant uses `preview_stock_basket`, and your wallet signs and sends the portfolio-creation transaction.
+Opening a USDC, Bitcoin, Ethereum, or MAMO Account uses a separate three-step process. Creating a stocks portfolio follows a different flow: the agent uses `preview_stock_basket`, and your wallet signs and sends the portfolio-creation transaction.
+
+#### Knowledge
+
+These tools help your agent understand Mamo and follow the correct steps for each action.
+
+| **Tool**         | **What it does**                                                                                                                                                  |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `get_started`    | Introduces Mamo, its five products, the available tools, and the order in which to use them. This is the recommended starting point.                              |
+| `get_mamo_guide` | Explains how Mamo works across six topics: accounts, deposits, withdrawals, rewards, safety, and fees. Each topic includes its documentation page as `sourceUrl`. |
+| `get_mamo_news`  | Retrieves recent posts from Mamo’s or Moonwell’s X account, with the newest posts first.                                                                          |
+
+#### Reads
+
+These tools retrieve product information, wallet balances, holdings, and activity without making changes.
+
+| **Tool**                 | **What it does**                                                                                                                                                                         |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `get_accounts`           | Lists Mamo’s products with their current status and APY, where applicable. No wallet address is required. Stocks do not earn an APY.                                                     |
+| `get_account_details`    | Explains how a product works, including where funds are allocated, its contracts, and audits. For Stocks, it also lists supported stocks, limits, and fees.                              |
+| `get_user_accounts`      | Retrieves a wallet’s holdings across Mamo, with totals valued in USD.                                                                                                                    |
+| `get_user_account`       | Retrieves detailed information about an individual Account or stocks portfolio. For Stocks, this includes net asset value, cash, holdings compared with their targets, and accrued fees. |
+| `get_user_activity`      | Lists a wallet’s deposits, withdrawals, compounding activity, and stocks rebalances, with the newest activity first.                                                                     |
+| `get_balance_history`    | Shows how a USDC, Bitcoin, Ethereum, or MAMO Account balance has changed over a period of 1 to 60 days.                                                                                  |
+| `get_wallet_balances`    | Shows the assets a wallet holds on Base outside Mamo, along with the amounts its Accounts and portfolio are approved to transfer.                                                        |
+| `get_transaction_status` | Checks whether a transaction has confirmed and describes its outcome, including rebalances (`rebalanced`) and sales on Aero (`sold`).                                                    |
+
+#### Previews and prepares
+
+For supported actions, your agent first previews the transaction, then prepares the unsigned calls for your wallet. The prepare step repeats the relevant checks using live data.
+
+| **Tools**                                       | **What they do**                                                                                                                                                                                   |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `preview_deposit` → `prepare_deposit`           | Check a deposit, including ownership, balances, gas, token approvals, paused operations, and Stocks limits. Simulate the transaction, then prepare its unsigned calls.                             |
+| `preview_withdraw` → `prepare_withdraw`         | Check and simulate a withdrawal, then prepare its unsigned calls. A stocks portfolio can pay out in USDC by selling holdings on Aero, or transfer holdings directly through an in-kind withdrawal. |
+| `preview_stock_basket` → `prepare_stock_basket` | Check proposed stock allocations, then prepare the calls to create a stocks portfolio or update an existing portfolio’s allocations.                                                               |
+| `prepare_claim_rewards`                         | Prepare the unsigned call to claim a MAMO Account’s rewards.                                                                                                                                       |
+
+Your wallet must sign the prepared transactions before they can proceed.
+
+#### Opening an Account
+
+Opening a USDC, Bitcoin, Ethereum, or MAMO Account follows a three-step process.
+
+| **Tool**                      | **What it does**                                                                               |
+| ----------------------------- | ---------------------------------------------------------------------------------------------- |
+| `prepare_sign_in`             | Returns the Sign-In with Ethereum message for your wallet to sign to request account creation. |
+| `create_account`              | Submits that signature to Mamo, which deploys the Account and pays the deployment gas.         |
+| `get_account_creation_status` | Checks whether the new Account is live on Base. Creation usually takes one to two minutes.     |
+
+Creating a stocks portfolio follows a different process. Your agent uses `preview_stock_basket` and `prepare_stock_basket` to check your allocations and prepare the creation transaction. Your wallet then signs and sends it.
+
+
+
+***
+
+
 
 ### Transaction checks and wallet approval
 
@@ -154,7 +204,7 @@ Opening a USDC, Bitcoin, Ethereum, or MAMO Account uses a separate three-step pr
 
 Mamo MCP does not hold private keys, sign transactions, or broadcast them.
 
-Never share your private key or seed phrase with an assistant. Mamo MCP will never request either.
+Never share your private key or seed phrase with an agent. Mamo MCP will never request either.
 
 #### Review what you sign
 
@@ -176,11 +226,7 @@ The prepare step repeats these checks using live data. If a check fails, the ser
 
 Each response includes `data`, `warnings`, and `next_actions`. Warnings include a code and severity:
 
-| Severity  | Meaning                                                   |
-| --------- | --------------------------------------------------------- |
-| `error`   | Do not sign. The server returns no transaction calls.     |
-| `warning` | The assistant should explain the warning before you sign. |
-| `info`    | Additional context about the result or proposed action.   |
+<table><thead><tr><th width="205.00848388671875">Severity</th><th>Meaning</th></tr></thead><tbody><tr><td><code>error</code></td><td>Do not sign. The server returns no transaction calls.</td></tr><tr><td><code>warning</code></td><td>The agent should explain the warning before you sign.</td></tr><tr><td><code>info</code></td><td>Additional context about the result or proposed action.</td></tr></tbody></table>
 
 If a value cannot be retrieved, the server returns an empty value with a warning rather than reporting a guessed zero.
 
@@ -230,7 +276,7 @@ Mamo MCP does not convert assets for you. If an action requires a different depo
 
 > Open a big-tech portfolio with $500.
 
-The assistant asks which stocks you want, their target allocations, and whether you want to hold any USDC as cash.
+The agent asks which stocks you want, their target allocations, and whether you want to hold any USDC as cash.
 
 It checks your choices using `preview_stock_basket`, then provides the portfolio-creation transaction for your wallet to sign. After the portfolio is created, it previews and prepares a 500 USDC deposit, explains any warnings, and asks you to review and sign.
 
@@ -240,19 +286,19 @@ The deposit remains in USDC until Mamo begins managing the new portfolio and sto
 
 > What did my rebalancer do this week?
 
-The assistant uses `get_user_activity` to retrieve rebalancing activity for the past week.
+The agent uses `get_user_activity` to retrieve rebalancing activity for the past week.
 
-Each CoW Protocol trade appears as a separate entry showing the assets sold and purchased. The assistant can use `get_transaction_status` to inspect an individual transaction, then `get_user_account` to show how your current allocations compare with their targets.
+Each CoW Protocol trade appears as a separate entry showing the assets sold and purchased. The agent can use `get_transaction_status` to inspect an individual transaction, then `get_user_account` to show how your current allocations compare with their targets.
 
 #### Move rewards into a stocks portfolio
 
 > Move my rewards into my stocks portfolio.
 
-The assistant checks your MAMO Account’s unclaimed rewards and prepares the claim using `prepare_claim_rewards`, following the required preview checks. Once you sign and the claim completes, the rewards arrive in your wallet as cbBTC and MAMO.
+The agent checks your MAMO Account’s unclaimed rewards and prepares the claim using `prepare_claim_rewards`, following the required preview checks. Once you sign and the claim completes, the rewards arrive in your wallet as cbBTC and MAMO.
 
-A stocks portfolio accepts USDC or supported stock tokens. Because Mamo MCP does not swap assets, the assistant explains that you must first convert the rewards into an accepted asset.
+A stocks portfolio accepts USDC or supported stock tokens. Because Mamo MCP does not swap assets, the agent explains that you must first convert the rewards into an accepted asset.
 
-Once you have USDC in your wallet, the assistant can preview and prepare the deposit into your portfolio.
+Once you have USDC in your wallet, the agent can preview and prepare the deposit into your portfolio.
 
 ### Further information
 
@@ -268,6 +314,6 @@ Once you have USDC in your wallet, the assistant can preview and prepare the dep
 
 * Connect a compatible MCP client to `https://mcp.mamo.bot/mcp`.
 * Read live data and preview actions without an API key or sign-in.
-* Ask your assistant to retrieve information, check actions, and prepare transactions.
+* Ask your agent to retrieve information, check actions, and prepare transactions.
 * Review transaction details and warnings before signing with your wallet.
 * Keep control of your keys and funds. Mamo MCP never signs or broadcasts transactions.
