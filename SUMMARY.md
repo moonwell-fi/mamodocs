@@ -32,3 +32,4 @@
 ## Technical
 
 * [📜 Contract Addresses](technical/contract-addresses.md)
+* [🔌 Mamo MCP](technical/mamo-mcp.md)
