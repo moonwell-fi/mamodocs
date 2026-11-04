@@ -4,157 +4,219 @@ description: Stocks, managed for you
 
 # 📈 Stocks
 
-<figure><img src="../.gitbook/assets/mamo-stocks-1y-x-header-2x1 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mamo-stocks-1y-x-header-2x1 (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## What is Mamo Stocks?
 
-Mamo Stocks lets you own a portfolio of [tokenized stocks](https://www.coinbase.com/en-au/tokenize) on [Base](https://www.base.org/), managed for you. You choose the stocks and how much of each you want, deposit USDC, and Mamo keeps your portfolio on target. When a stock moves too far from where you set it, Mamo buys or sells to bring it back. You don’t place orders, watch prices or rebalance by hand.
+Mamo Stocks lets you build a portfolio of [tokenized stocks](https://www.coinbase.com/en-au/tokenize) on [Base](https://www.base.org/), with automated rebalancing to maintain your chosen allocation. You select your stocks, set a target percentage for each, and deposit [USDC](https://www.usdc.com/). Mamo then buys and sells holdings according to your portfolio settings.
 
-Mamo Stocks doesn’t earn a savings rate like your USDC, Bitcoin and Ethereum do. Your portfolio rises and falls with the prices of the stocks you hold. It’s a calm, steady way to own stocks. It isn’t a way to earn interest.
+Rebalancing means adjusting your holdings to keep your portfolio aligned with your chosen mix. As prices change, some stocks represent a larger share of your portfolio and others a smaller share. Mamo can sell holdings above their targets and use the proceeds to buy holdings below their targets.
 
-{% hint style="info" %}
-Each stock you hold with Mamo is a token issued by [Coinbase](https://www.coinbase.com) on Base, like AAPLc for Apple or NVDAc for Nvidia. Every token is backed 1-to-1 by a real share, held by a regulated custodian. They can be bought and sold any time, weekends included.
-{% endhint %}
+Unlike Mamo’s USDC, Bitcoin, and Ethereum accounts, Mamo Stocks does not earn a savings rate. Your portfolio’s value changes with the prices of the stocks you hold, less fees and trading costs. Automated rebalancing helps maintain your chosen allocation, but does not protect against losses.
 
-## How it works
+Each stock is represented by a token issued by [Coinbase](https://www.coinbase.com/en-gb) on Base, such as AAPLc for Apple or NVDAc for Nvidia. Each token is backed 1:1 by a share held by a regulated custodian. These tokens can trade around the clock, including weekends, although Mamo applies additional restrictions to automated trading outside U.S. stock market hours.
 
-### **1. Build your portfolio**
+### How it works
 
-Start by choosing the stocks you want to own. You can pick up to ten from the list in the app.
+#### 1. Build your portfolio
 
-Then decide how much of your portfolio goes into each one. These are your targets. Each stock needs at least 5%. You can also keep part of your portfolio in USDC as cash. Cash is optional and works like any other target. Everything adds up to 100%.
+Choose up to ten supported stocks and assign a target percentage to each. Every stock must have a target allocation of at least 5%.
+
+You can also allocate part of your portfolio to USDC as cash. Cash is optional and does not count toward the ten-stock limit. Your stock and cash allocations must total 100%.
 
 For example:
 
-* Apple: 40%
-* Nvidia: 40%
-* Cash: 20%
+| Holding   | Target allocation |
+| --------- | ----------------- |
+| Apple     | 40%               |
+| Nvidia    | 40%               |
+| USDC cash | 20%               |
 
-### **2. Deposit USDC**
+#### 2. Deposit USDC
 
-The minimum deposit is 100 USDC. Once your USDC arrives, Mamo buys your stocks to match your targets. With 1,000 USDC and the example above, that’s 400 USDC of Apple, 400 USDC of Nvidia and 200 USDC kept as cash.
+The minimum deposit is 100 USDC. Mamo uses your deposit to purchase stocks according to your target allocations. With a deposit of 1,000 USDC and the allocation above, Mamo would purchase 400 USDC of Apple and 400 USDC of Nvidia, leaving 200 USDC as cash, before trading costs.
 
-### **3. Mamo keeps your portfolio on target**
+If the U.S. stock market is closed, your deposit remains in USDC until the market opens and Mamo can purchase stocks.
 
-Stock prices change every day, so your portfolio slowly moves away from your targets. A stock that goes up takes up more of your portfolio. A stock that goes down takes up less.
+#### 3. Automated rebalancing
 
-Mamo checks your portfolio all the time. Every stock has a range of 5 points either side of its target. With a 40% target, that range is 35% to 45%. As long as everything stays inside its range, Mamo leaves it alone. Once a stock moves outside its range, Mamo trades to bring it back.
+As stock prices change, the percentage of your portfolio held in each stock changes too. For example, a stock with a 40% target allocation may grow to represent more than 40% of your portfolio if its price rises. Rebalancing brings these allocations back toward your targets. It follows your portfolio settings rather than a price rise or decline alone.
 
-#### **What a rebalance looks like**
+Mamo monitors each holding against its target, with a tolerance of five percentage points above or below it. For a 40% target, the permitted range is 35% to 45%.
 
-Say Nvidia rises 30%. Your portfolio is now:
+When all holdings remain within their ranges, Mamo does not rebalance. When a holding moves outside its range, Mamo can sell a holding above its target and use the proceeds to buy one below its target. These adjustments are subject to trading checks and minimum trade sizes.
 
-* Apple: 400 USDC (35.7%)
-* Nvidia: 520 USDC (46.4%)
-* Cash: 200 USDC (17.9%)
+**Rebalancing example**
 
-Nvidia is now 6.4 points above its target, which is outside its range. Mamo finds the stock that’s furthest over target and the one that’s furthest under. Here that’s Nvidia and Apple. Mamo then sells about 48 USDC of Nvidia and uses it to buy 48 USDC of Apple.
+Suppose Nvidia rises by 30%, while Apple’s price remains unchanged. Your portfolio would be:
 
-After the trade:
+| **Holding** | **Value**      | **Allocation** |
+| ----------- | -------------- | -------------- |
+| Apple       | 400 USDC       | 35.7%          |
+| Nvidia      | 520 USDC       | 46.4%          |
+| USDC cash   | 200 USDC       | 17.9%          |
+| **Total**   | **1,120 USDC** | **100%**       |
 
-* Apple: 448 USDC (40%)
-* Nvidia: 472 USDC (42.1%)
-* Cash: 200 USDC (17.9%)
+Nvidia is now 6.4 percentage points above its 40% target, putting it outside the permitted range.
 
-Everything is back inside its range. Mamo trimmed the stock that had grown and added to the one that had fallen behind, without you doing anything.
+Mamo identifies the holdings furthest above and below their targets. In this example, Mamo sells approximately 48 USDC of Nvidia and uses the proceeds to buy Apple.
 
-Mamo trades one pair at a time. When more than one stock is off target, Mamo repeats this until everything is back in range. Your cash is part of this too. If your cash grows too large, Mamo puts it to work in your stocks. If it drops too low, Mamo tops it back up.
+Ignoring trading costs, the portfolio becomes:
 
-### **4. Add more any time**
+| **Holding** | **Value**      | **Allocation** |
+| ----------- | -------------- | -------------- |
+| Apple       | 448 USDC       | 40.0%          |
+| Nvidia      | 472 USDC       | 42.1%          |
+| USDC cash   | 200 USDC       | 17.9%          |
+| **Total**   | **1,120 USDC** | **100%**       |
 
-Each new deposit goes toward your targets. Mamo buys more of whatever is furthest below target, so new money helps bring your portfolio back into shape.
+All holdings are now within their permitted ranges. Rebalancing does not need to return every holding to its exact target.&#x20;
 
-### **5. Change your portfolio whenever you like**
+Mamo trades one pair of holdings at a time and may perform additional trades when multiple holdings require adjustment. Cash is included in this process: Mamo can use excess cash to purchase stocks or sell stocks to replenish cash.
 
-You can add a stock, remove one or change your targets at any time. Mamo then trades toward your new targets the same way. If you remove a stock, Mamo sells it and puts the money into the stocks you’re keeping.
+#### 4. Add funds
 
-#### **Why a stock can sit slightly off target**
+You can deposit additional USDC at any time. Mamo directs new funds toward holdings that are furthest below their targets, helping bring the portfolio closer to your chosen allocation.
 
-Mamo skips trades that are too small to be worth making. In a small portfolio, especially one close to the 100 USDC minimum, a stock can sit a few points outside its range for a while. You’ll see this most often right after adding a new stock, or when your cash is a little above target.
+Purchases remain subject to market-hours restrictions and trading checks.
 
-This is normal and nothing is lost. It sorts itself out when prices move further, when you deposit again, or when you change your portfolio.
+#### 5. Update your portfolio
 
-#### **Which stocks are available**
+You can add or remove stocks and adjust your target allocations at any time. Mamo then trades toward your updated settings, subject to the same trading checks.
 
-Mamo sets the list of stocks you can choose from, and it can change over time. The app always shows the current list.
+When you remove a stock, Mamo sells the holding and reallocates the proceeds according to your revised portfolio settings.
 
-| Mamo Stocks                                                                                                                                                                |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Supported stocks:** AAPLc, AMZNc, GOOGLc, METAc, MSFTc, MSTRc, MUc, NVDAc, PLTRc, SNDKc, SPCXc, TSLAc                                                                    |
-| **Trading:** rebalances through [**CoW Protocol**](https://cow.fi/), sales on [**Aero**](https://app.aero.xyz/liquidity/pools) **(**[**Base**](https://www.base.org/)**)** |
+### Small trades and allocation differences
 
-## How your portfolio changes in value
+Mamo skips trades below its minimum trade size. As a result, a holding may remain outside its permitted range until a larger adjustment can be made.&#x20;
 
-Your portfolio is valued in USDC (US dollars). Its value is the sum of your stock holdings at current prices, plus the USDC you keep as cash.
+This is more noticeable in smaller portfolios, particularly those close to the 100 USDC minimum, and may occur after adding a stock or when cash is slightly above target.
 
-Growth comes only from the stocks going up. If they go down, your balance goes down. There’s no interest and no rewards on Mamo Stocks. What you hold is what you chose.
+Further price movements, additional deposits, or changes to your portfolio settings may make an adjustment large enough to execute.
 
-## How trades are protected
+### Supported stocks
 
-Mamo can suggest trades, but your portfolio checks every one before it goes through. Any trade that breaks the rules is rejected.
+Mamo Stocks supports the following tokenized stocks on Base. You can include up to ten in your portfolio, alongside an optional allocation to USDC cash.
 
-* **Fair prices.** Every trade must get have a price no more than 1% worse than the stock’s recent average price. Mamo uses an average, not a single quote, so one sudden swing can’t push a bad trade through.
-* **Stays on target.** After each trade, both sides must be within 5 points of their targets.
-* **Only your picks.** Mamo never buys a stock you didn’t choose.
+| **Company** | **Token** |
+| ----------- | --------- |
+| Apple       | AAPLc     |
+| Amazon      | AMZNc     |
+| Alphabet    | GOOGLc    |
+| Meta        | METAc     |
+| Microsoft   | MSFTc     |
+| Strategy    | MSTRc     |
+| Micron      | MUc       |
+| Nvidia      | NVDAc     |
+| Palantir    | PLTRc     |
+| SanDisk     | SNDKc     |
+| SpaceX      | SPCXc     |
+| Tesla       | TSLAc     |
 
+The supported list may change over time. Refer to the app for current availability.
 
+### Portfolio value and returns
 
-Mamo can only propose trades. Checks are carried out before any trade it settled, rejecting any trade that breaks the defined rules.
+Your portfolio is valued in USDC using the current prices of your stock holdings, plus any USDC held as cash.&#x20;
 
-Each rebalance must fill at no worse than 1% below a reference price. That reference is the stock's recent average price on [**Aero**](https://app.aero.xyz/liquidity/pools), not a single quote, which makes it harder to move.&#x20;
+Mamo Stocks does not pay interest or distribute any additional rewards. Your returns depend on changes in the value of your holdings, less the annual management fee and trading costs. Your portfolio can lose value.
 
-After the trade, both sides must sit within 5 percentage points of their targets. Mamo never buys a stock that is not in your portfolio.
+### Trading safeguards
 
-When the US stock market is closed, Mamo won't buy stocks. New deposits wait as USDC until it opens. Mamo will only sell a stock back toward its target if the price is higher than when the market last closed. This keeps Mamo from buying in quiet hours, when there are fewer traders and prices can be less reliable.
+Mamo proposes trades, and your account checks each trade before it settles. Trades that do not meet the account’s rules are rejected.
 
-## Fees and limits
+The checks include:
 
-Mamo Stocks has a 1% yearly fee, based on the value of your portfolio. It’s spread evenly across the year, not charged per trade. No deposit fees. No withdrawal fees.
+* **Price limits.** Each rebalance must execute at a price no more than 1% worse than the reference price. The reference uses the stock’s recent average price on [Aero](https://aero.xyz/) rather than a single quote, helping reduce the influence of short-lived price movements.
+* **Allocation limits.** After a rebalance trade, both holdings involved must be within five percentage points of their targets.
+* **Selected holdings only.** Mamo can only purchase stocks included in your portfolio.
 
-| Limit                                 | Value        |
-| ------------------------------------- | ------------ |
-| Minimum account value after a deposit | 100 USDC     |
-| Maximum net deposits per account      | 100,000 USDC |
-| Stocks per portfolio                  | Up to 10     |
-| Minimum weight per stock              | 5%           |
+#### Trade execution
 
-Net deposits are the USDC you’ve put in minus what you’ve taken out.&#x20;
+Mamo routes portfolio rebalances through [CoW Protocol](https://cow.fi/) and executes stock sales on [Aero](https://aero.xyz/) on Base. Trades remain subject to your account’s pricing, allocation, and supported-holding checks.
 
-Gains don’t count toward the cap.
+#### Trading outside U.S. market hours
 
-## Security and control
+When the U.S. stock market is closed, Mamo does not make automated stock purchases. New deposits remain in USDC until the market reopens.
 
-Your stocks stay yours from start to finish. Mamo never takes custody. Deposits move into a personal account owned by you. Only you can withdraw, change the portfolio, or approve an upgrade.
+During these hours, Mamo will only sell a stock toward its target allocation if its price is higher than its price at the previous market close.
 
-Mamo's role is limited to proposing trades that pass your account's checks. Mamo can never withdraw your funds. You can turn off Mamo’s trading for your portfolio whenever you like. Withdrawals work either way.
+These restrictions limit automated trading during periods when liquidity may be lower and token prices may diverge from the underlying share prices.
 
-## Access anytime
+### Fees and limits
 
-Withdraw whenever you want. No lockups, no waiting periods, and no market-hours restrictions, because stocks are able to trade 24/7.
+Mamo Stocks charges an annual management fee of 1% of your portfolio’s value, accrued throughout the year rather than charged per trade.
+
+| Item                                | Fee or limit          |
+| ----------------------------------- | --------------------- |
+| Annual management fee               | 1% of portfolio value |
+| Deposit fee                         | None                  |
+| Withdrawal fee                      | None                  |
+| Minimum deposit                     | 100 USDC              |
+| Maximum stock holdings              | 10                    |
+| Minimum target allocation per stock | 5%                    |
+
+Trading costs may apply when stocks are bought or sold, including during deposits, rebalancing, and withdrawals.&#x20;
+
+Any net deposit cap is calculated as total USDC deposited minus withdrawals. Portfolio gains do not count toward this cap.
+
+### Security and control
+
+Mamo Stocks uses a personal, non-custodial account owned by you. Only you can withdraw funds, change your portfolio settings, or approve an account upgrade.
+
+Mamo’s role is limited to proposing trades that pass your account’s checks. It cannot withdraw your funds. You can turn off automated trading at any time. Doing so does not disable withdrawals.
+
+### Withdrawals
+
+There are no lockups or scheduled withdrawal periods. You can request a withdrawal at any time, including outside U.S. stock market hours, subject to network availability, token transfer restrictions, and any checks required for the withdrawal method.
 
 You can withdraw in two ways:
 
-* **As USDC.** Mamo sells the stocks you need as part of your withdrawal.
-* **In kind.** Nothing is sold. Nothing is sold. Your stock tokens and any USDC go straight to your wallet as they are. This always works, even when a stock can’t be priced, and it’s the best option for large withdrawals.
+#### Withdraw as USDC
 
-## Things to know
+Mamo sells the stock holdings needed to fund your withdrawal and sends USDC to your wallet.
 
-* **No savings rate.** Your return is how your stocks perform, minus the 1% yearly fee and small trading costs.
-* **Issuer and custody.** [Coinbase](https://www.coinbase.com/en-gb) issues the stock tokens, and real shares back each one. Coinbase can pause a token or freeze it for a specific wallet. If that happens to one stock, the rest aren’t affected. You can still withdraw them as stocks.
-* **Prices outside market hours.** Fewer people trade these stocks than on the stock market, so prices can move away from the real market price, especially when the US market is closed. Large withdrawals as USDC may get a worse price or be cancelled. Withdrawing as stocks always works.
-* **Eligibility.** Stocks are only available in eligible jurisdictions outside of the U.S. See the [**Terms of Service**](../legal/terms-of-service.md) for details.
-* **Small portfolios drift more.** Mamo skips trades that are too small to be worth placing, so a position in a small portfolio can stay a few points outside the 5-point band for a while. It catches up when prices move, when you deposit, or when you change the portfolio.
-* **Base outages.** If the Base network goes down, stock prices can’t be checked until an hour after it’s back. During that time Mamo won’t trade, USDC withdrawals pay out only the cash in your portfolio, and withdrawing as stocks still works.
+Execution depends on available liquidity and pricing checks. Large withdrawals or withdrawals during periods of low liquidity may receive less favourable prices or fail to execute.
 
-***
+#### Withdraw stock tokens and USDC
 
-## At a glance
+An in-kind withdrawal transfers your stock tokens and any USDC directly to your wallet without selling them. This avoids the need to execute stock trades and does not require stock pricing. It can be useful for larger withdrawals or when pricing checks prevent a USDC withdrawal. Network availability and token transfer restrictions still apply.
 
-* Own a portfolio of up to ten stocks, plus cash if you want it.
-* Deposit USDC and Mamo buys to match your targets.
-* Mamo rebalances when a stock drifts more than 5 points off target.
-* No interest or rewards. Your portfolio follows your stocks.
-* 1% yearly fee. No deposit or withdrawal fees.
-* Withdraw as USDC or as stocks, any time.
+### Important considerations
 
-Your stocks, kept on target in the background.
+#### Investment risk
+
+Your portfolio’s value can rise or fall. Automated rebalancing maintains your chosen allocation; it does not guarantee returns or prevent losses.
+
+#### Token issuer and custody risk
+
+Coinbase issues the stock tokens, with the underlying shares held by a regulated custodian. The issuer can pause a token or freeze it for a particular wallet, which may restrict trading or transfers of that token. Restrictions on one token do not necessarily affect the other holdings in your portfolio.
+
+#### Liquidity and pricing
+
+Tokenized stocks may have less liquidity than their underlying shares. Their prices can diverge from stock market prices, particularly when the U.S. market is closed.
+
+This can affect execution prices and the availability of USDC withdrawals. In-kind withdrawals avoid selling your holdings but remain subject to transfer restrictions and network availability.
+
+#### Eligibility
+
+Mamo Stocks is available only in eligible jurisdictions outside the United States.
+
+#### Small portfolios
+
+Minimum trade sizes can prevent small allocation adjustments. Holdings in smaller portfolios may remain outside their permitted ranges until a sufficiently large trade can be executed.
+
+#### Base network outages
+
+A Base network outage can prevent transactions from being processed. After the network resumes, Mamo waits one hour before using stock prices again.
+
+During this recovery period, automated trading is unavailable and USDC withdrawals are limited to the cash already held in your portfolio. In-kind withdrawals do not require stock prices and can proceed once the network supports transactions, subject to token transfer restrictions.
+
+### At a glance
+
+* Build a portfolio of up to ten supported stocks, with an optional USDC cash allocation.
+* Deposit USDC and let Mamo purchase stocks according to your settings.
+* Use automated rebalancing to keep holdings within five percentage points of their targets, subject to trading checks and minimum trade sizes.
+* Pay a 1% annual management fee, with no deposit or withdrawal fees.
+* Withdraw as USDC or transfer your stock tokens and cash directly to your wallet.
+* Retain control of your account and turn off automated trading at any time.
