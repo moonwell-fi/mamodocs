@@ -16,6 +16,8 @@ Unlike Mamo’s USDC, Bitcoin, and Ethereum accounts, Mamo Stocks does not earn 
 
 Each stock is represented by a token issued by [Coinbase](https://www.coinbase.com/en-gb) on Base, such as AAPLc for Apple or NVDAc for Nvidia. Each token is backed 1:1 by a share held by a regulated custodian. These tokens can trade around the clock, including weekends, although Mamo applies additional restrictions to automated trading outside U.S. stock market hours.
 
+
+
 ***
 
 ## How it works
@@ -88,6 +90,8 @@ You can add or remove stocks and adjust your target allocations at any time. Mam
 
 When you remove a stock, Mamo sells the holding and reallocates the proceeds according to your revised portfolio settings.
 
+
+
 ***
 
 ## Supported stocks
@@ -116,6 +120,8 @@ The supported list may change over time. Refer to the app for current availabili
 Your portfolio is valued in USDC using the current prices of your stock holdings, plus any USDC held as cash.&#x20;
 
 Mamo Stocks does not pay interest or distribute any additional rewards. Your returns depend on changes in the value of your holdings, less the annual management fee and trading costs. Your portfolio can lose value.
+
+
 
 ***
 
@@ -148,6 +154,8 @@ When the U.S. stock market is closed, Mamo does not make automated stock purchas
 During these hours, Mamo will only sell a stock toward its target allocation if its price is higher than its price at the previous market close.
 
 These restrictions limit automated trading during periods when liquidity may be lower and token prices may diverge from the underlying share prices.
+
+
 
 ***
 
@@ -190,6 +198,8 @@ Execution depends on available liquidity and pricing checks. Large withdrawals o
 
 An in-kind withdrawal transfers your stock tokens and any USDC directly to your wallet without selling them. This avoids the need to execute stock trades and does not require stock pricing. It can be useful for larger withdrawals or when pricing checks prevent a USDC withdrawal. Network availability and token transfer restrictions still apply.
 
+
+
 ***
 
 ## Important considerations
@@ -221,6 +231,10 @@ Minimum trade sizes can prevent small allocation adjustments. Holdings in smalle
 A Base network outage can prevent transactions from being processed. After the network resumes, Mamo waits one hour before using stock prices again.
 
 During this recovery period, automated trading is unavailable and USDC withdrawals are limited to the cash already held in your portfolio. In-kind withdrawals do not require stock prices and can proceed once the network supports transactions, subject to token transfer restrictions.
+
+
+
+***
 
 ### At a glance
 
