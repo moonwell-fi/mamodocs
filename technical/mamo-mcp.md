@@ -10,11 +10,9 @@ description: Let your AI agent run your Mamo Accounts
 
 Mamo MCP connects compatible AI assistants, including [ChatGPT](https://chatgpt.com/), [Muse](https://ai.meta.com/muse/), [Grok Bot](https://x.ai/bot), and [Claude](https://claude.ai/), to your Mamo Accounts and stocks portfolio through the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro).
 
-Once connected, you can ask your assistant to check balances, review earnings, compare your stocks portfolio with its target allocations, or prepare a deposit or withdrawal using live data from [Base](https://www.base.org/).
+Once connected, you can ask your assistant to check balances, review earnings, compare your stocks portfolio with its target allocations, or prepare a deposit or withdrawal using live data from [Base](https://www.base.org/). Your wallet remains in control. Mamo MCP holds no private keys and does not sign or broadcast transactions. When an action requires funds to move, the assistant checks it and prepares an unsigned transaction for your wallet to review. The transaction only proceeds when you sign.
 
-Your wallet remains in control. Mamo MCP holds no private keys and does not sign or broadcast transactions. When an action requires funds to move, the assistant checks it and prepares an unsigned transaction for your wallet to review. The transaction only proceeds when you sign.
-
-Mamo MCP works with the same accounts and portfolio you use in the Mamo app. It supports all five products on Base:
+Mamo MCP works with the same accounts and stock portfolio you use in the Mamo app:
 
 * USDC Account
 * Bitcoin Account
