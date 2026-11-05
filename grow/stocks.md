@@ -177,6 +177,7 @@ Mamo Stocks charges an annual management fee of 1% of your portfolio’s value, 
 | Deposit fee                         | None                  |
 | Withdrawal fee                      | None                  |
 | Minimum deposit                     | 100 USDC              |
+| Maximum amount per wallet/account   | 100,000 USDC          |
 | Maximum stock holdings              | 10                    |
 | Minimum target allocation per stock | 5%                    |
 
