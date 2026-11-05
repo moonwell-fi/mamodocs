@@ -171,15 +171,15 @@ These restrictions limit automated trading during periods when liquidity may be 
 
 Mamo Stocks charges an annual management fee of 1% of your portfolio’s value, accrued throughout the year rather than charged per trade.
 
-| Item                                | Fee or limit          |
-| ----------------------------------- | --------------------- |
-| Annual management fee               | 1% of portfolio value |
-| Deposit fee                         | None                  |
-| Withdrawal fee                      | None                  |
-| Minimum deposit                     | 100 USDC              |
-| Maximum amount per wallet/account   | 100,000 USDC          |
-| Maximum stock holdings              | 10                    |
-| Minimum target allocation per stock | 5%                    |
+| Item                                | Fee or limit                                |
+| ----------------------------------- | ------------------------------------------- |
+| Annual management fee               | 1% of portfolio value                       |
+| Deposit fee                         | None                                        |
+| Withdrawal fee                      | None                                        |
+| Minimum deposit                     | 100 USDC                                    |
+| Maximum amount per wallet/account   | 100,000 USDC (can be increased as required) |
+| Maximum stock holdings              | 10                                          |
+| Minimum target allocation per stock | 5%                                          |
 
 Trading costs may apply when stocks are bought or sold, including during deposits, rebalancing, and withdrawals.&#x20;
 
