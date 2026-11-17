@@ -27,7 +27,7 @@ If personal finance has ever felt designed for someone else, with their own voca
 * People who prefer quiet, calm progress over flashy bets
 * People who believe wealth should compound for everyone, not only for those who already speak the language
 
-You do not need a finance background or a strong opinion on the market. You only need to want a calmer relationship with your money. The Who Mamo Helps page describes these groups in more detail.
+You do not need a finance background or a strong opinion on the market. You only need to want a calmer relationship with your money. The [Who Mamo Helps](mamo/who-mamo-helps.md) page describes these groups in more detail.
 
 ### How Mamo works
 
