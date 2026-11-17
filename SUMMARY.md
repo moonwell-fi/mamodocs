@@ -10,13 +10,20 @@
 * [🔗 Important Links](mamo/important-links.md)
 * [🏗️ Contributors](mamo/contributors.md)
 
-## Grow
+## Invest
 
-* [📈 Stocks](grow/stocks.md)
-* [🔵 USD Coin (USDC)](grow/usd-coin-usdc.md)
-* [🟠 Bitcoin (cbBTC)](grow/bitcoin-cbbtc.md)
-* [🟣 Ethereum (ETH)](grow/ethereum-eth.md)
-* [🟢 Mamo (MAMO)](grow/mamo-mamo.md)
+* [📈 Stocks](invest/stocks.md)
+
+## Earn
+
+* [🟢 Mamo (MAMO)](earn/mamo-account.md)
+* [💧 The Mamo Drop](earn/the-mamo-drop.md)
+
+## Save
+
+* [🔵 USD Coin (USDC)](save/usd-coin-usdc.md)
+* [🟠 Bitcoin (cbBTC)](save/bitcoin-cbbtc.md)
+* [🟣 Ethereum (ETH)](save/ethereum-eth.md)
 
 ## Behind the Scenes
 
