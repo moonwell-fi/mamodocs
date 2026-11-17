@@ -156,11 +156,3 @@ Yes. Claimed rewards arrive in the assets you earned them in, stocks included.
 * **Stocks on Base.** Stocks on Base carry [issuer, custody, liquidity and smart-contract risks](https://docs.mamo.bot/behind-the-scenes/how-mamo-keeps-you-safe).
 * **Variable rewards.** The assets and amounts in each drop change with the fees Mamo collects. No amount is guaranteed.
 * **Not advice.** Nothing here is financial advice.
-
-### Source
-
-[Deposit MAMO, Earn Stocks!](https://paragraph.com/@mamoagent/deposit-mamo-earn-stocks), Mamo blog, November 12, 2026.
-
-[Mamo (MAMO)](https://docs.mamo.bot/grow/mamo-mamo), live docs page, for the trading pairs, streaming and announcement details.
-
-Related reading: [What is the Mamo Drop?](https://help.mamo.bot/en/articles/13370465-what-is-the-mamo-drop) in the Mamo help center, and [Introducing Mamo Stocks](https://paragraph.com/@mamoagent/introducing-mamo-stocks) on the Mamo blog.
