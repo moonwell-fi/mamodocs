@@ -8,7 +8,7 @@ Whether you are growing stablecoins in the USDC Account, building your Bitcoin s
 
 ### The accounts at a glance
 
-<table data-header-hidden><thead><tr><th width="220.93463134765625"></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Account</strong></td><td><strong>What Mamo does with your deposit</strong></td><td><strong>What you earn</strong></td></tr><tr><td><a href="https://docs.mamo.bot/grow/usd-coin-usdc">USDC</a>, <a href="https://docs.mamo.bot/grow/bitcoin-cbbtc">Bitcoin</a>, <a href="https://docs.mamo.bot/grow/ethereum-eth">Ethereum</a></td><td>Lends your deposit through Moonwell or Morpho, choosing the market or vault with the highest available rate</td><td>Borrower interest, plus WELL and MORPHO rewards converted into your deposited asset</td></tr><tr><td><a href="https://docs.mamo.bot/grow/mamo-mamo">MAMO</a></td><td>Keeps your MAMO deposited so your balance counts toward each weekly drop</td><td>A weekly share of the fees Mamo collects, paid through the Mamo Drop</td></tr><tr><td><a href="https://docs.mamo.bot/grow/stocks">Stocks</a></td><td>Buys the stocks you chose and rebalances them toward your target weights</td><td>No interest or rewards. The value follows the prices of the stocks you hold</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="220.93463134765625"></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Account</strong></td><td><strong>What Mamo does with your deposit</strong></td><td><strong>What you earn</strong></td></tr><tr><td><a href="../save/usd-coin-usdc.md">USDC</a>, <a href="../save/bitcoin-cbbtc.md">Bitcoin</a>, <a href="../save/ethereum-eth.md">Ethereum</a></td><td>Lends your deposit through Moonwell or Morpho, choosing the market or vault with the highest available rate</td><td>Borrower interest, plus WELL and MORPHO rewards converted into your deposited asset</td></tr><tr><td><a href="../earn/mamo-account.md">MAMO</a></td><td>Keeps your MAMO deposited so your balance counts toward each weekly drop</td><td>A weekly share of the fees Mamo collects, paid through the Mamo Drop</td></tr><tr><td><a href="../invest/stocks.md">Stocks</a></td><td>Buys the stocks you chose and rebalances them toward your target weights</td><td>No interest or rewards. The value follows the prices of the stocks you hold</td></tr></tbody></table>
 
 ## Step by step
 
@@ -44,7 +44,7 @@ Interest and converted rewards are folded back into your balance automatically. 
 
 ### 6. Always accessible
 
-Withdraw at any time. Your funds go straight to your wallet, even if Mamo is offline. You can add, pause or withdraw without lockups or waiting periods. Stock portfolios offer two ways to withdraw, which the [Stocks](https://docs.mamo.bot/grow/stocks) page explains.
+Withdraw at any time. Your funds go straight to your wallet, even if Mamo is offline. You can add, pause or withdraw without lockups or waiting periods. Stock portfolios offer two ways to withdraw, which the [Stocks](../invest/stocks.md) page explains.
 
 ### 7. Updates with permission
 
