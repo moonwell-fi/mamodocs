@@ -74,7 +74,7 @@ Moonwell's documentation covers [checking available liquidity](https://docs.moon
 
 ## Bitcoin from the Mamo Drop
 
-If you also hold MAMO in a [MAMO Account](https://docs.mamo.bot/grow/mamo-mamo) with the Reinvest setting, Bitcoin rewards from the weekly Mamo Drop are sent to your Bitcoin Account, where they join your balance.
+If you also hold MAMO in a [MAMO Account](../earn/mamo-account.md) with the Reinvest setting, Bitcoin rewards from the weekly Mamo Drop are sent to your Bitcoin Account, where they join your balance.
 
 ## Things to know
 

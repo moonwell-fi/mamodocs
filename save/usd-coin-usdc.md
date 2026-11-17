@@ -72,7 +72,7 @@ Moonwell's documentation covers [checking available liquidity](https://docs.moon
 
 ## USDC from the Mamo Drop
 
-If you also hold MAMO in a [MAMO Account](https://docs.mamo.bot/grow/mamo-mamo) with the Reinvest setting, USDC rewards from the weekly Mamo Drop are sent to your USDC Account, where they join your balance.
+If you also hold MAMO in a [MAMO Account](../earn/mamo-account.md) with the Reinvest setting, USDC rewards from the weekly Mamo Drop are sent to your USDC Account, where they join your balance.
 
 ## Things to know
 

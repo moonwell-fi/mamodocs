@@ -199,7 +199,7 @@ The 1% annual management fee is shared with MAMO depositors through the weekly M
 
 #### Earning stocks without buying them
 
-If you hold MAMO in a [MAMO Account](https://docs.mamo.bot/grow/mamo-mamo), your weekly drop can include stocks. What happens to them depends on your reward setting.
+If you hold MAMO in a [MAMO Account](../earn/mamo-account.md), your weekly drop can include stocks. What happens to them depends on your reward setting.
 
 With Compound, stock rewards are converted into MAMO and added to your MAMO balance. With Reinvest, stock rewards go into your stock portfolio:
 

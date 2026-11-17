@@ -44,7 +44,7 @@ Financial stress often comes from hidden rules and unclear terms. Mamo keeps thi
 * No lockups preventing withdrawals
 * No unexpected changes disrupting your progress
 
-Where a fee applies, the fee is stated on the page for that product. Stock portfolios, for example, carry a 1% annual management fee, which the [Stocks](https://docs.mamo.bot/grow/stocks#fees-and-limits) page sets out alongside every limit.
+Where a fee applies, the fee is stated on the page for that product. Stock portfolios, for example, carry a 1% annual management fee, which the [Stocks](../invest/stocks.md) page sets out alongside every limit.
 
 ### 🧠 Smart protection for your earnings
 
@@ -54,17 +54,17 @@ Earning is valuable, but keeping what you earn safe matters more. When Mamo conv
 2. [**Chainlink**](https://chain.link/) **oracles** act as independent price feeds, and halt any swap when market prices deviate from fair value.
 3. **Tight slippage limits** make sure you do not lose value during volatile price swings. If conditions are not right, Mamo waits before converting your rewards.
 
-Stock portfolios have their own trading safeguards, including price limits and allocation limits on every rebalance. The [Stocks](https://docs.mamo.bot/grow/stocks) page describes them.
+Stock portfolios have their own trading safeguards, including price limits and allocation limits on every rebalance. The [Stocks](../invest/stocks.md) page describes them.
 
 ### ⚖️ Honest about risk
 
 All investing carries risk. Mamo is upfront about what those risks are.
 
 * **Variable rates.** Interest rates change with borrower demand. A 12% rate today may be 8% tomorrow, or even within the hour. Mamo always seeks the best available rate, but the number will change.
-* **Liquidity risk.** Withdrawals from the [USDC](https://docs.mamo.bot/grow/usd-coin-usdc), [Bitcoin](https://docs.mamo.bot/grow/bitcoin-cbbtc) and [Ethereum](https://docs.mamo.bot/grow/ethereum-eth) accounts depend on the liquidity available in the underlying markets on Moonwell and Morpho. Your deposit is lent to borrowers, so only the portion that is not currently borrowed can be withdrawn at any moment. If a market is heavily borrowed, a withdrawal for more than the available liquidity will not go through. Your funds stay in your account, and you can try again later, once borrowers repay their loans or lenders supply more. Each account page explains how to check available liquidity.
+* **Liquidity risk.** Withdrawals from the [USDC](../save/usd-coin-usdc.md), [Bitcoin](../save/bitcoin-cbbtc.md) and [Ethereum](../save/ethereum-eth.md) accounts depend on the liquidity available in the underlying markets on Moonwell and Morpho. Your deposit is lent to borrowers, so only the portion that is not currently borrowed can be withdrawn at any moment. If a market is heavily borrowed, a withdrawal for more than the available liquidity will not go through. Your funds stay in your account, and you can try again later, once borrowers repay their loans or lenders supply more. Each account page explains how to check available liquidity.
 * **Smart contract risk.** Independent audits and bug bounties reduce the chance of vulnerabilities, but no code is perfect.
 * **Protocol risk.** Mamo routes funds to Moonwell and Morpho on Base. These platforms have strong track records and multiple audits, but they are not backed by government insurance.
 * **Price risk.** Bitcoin, Ethereum, MAMO and stocks can all fall in value. Earning on an asset does not protect you from a fall in that asset's price.
-* **Stock-specific risks.** Tokenized stocks carry issuer, custody, liquidity and pricing risks, and are available only in eligible jurisdictions outside the United States. The [Stocks](https://docs.mamo.bot/grow/stocks) page sets these out in full.
+* **Stock-specific risks.** Tokenized stocks carry issuer, custody, liquidity and pricing risks, and are available only in eligible jurisdictions outside the United States. The [Stocks](../invest/stocks.md) page sets these out in full.
 
 Our role is to minimise risk, explain risk clearly, and make sure you can adjust your position at any time.

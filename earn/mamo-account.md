@@ -16,7 +16,7 @@ The account stays under your control. Each Mamo account is a smart contract owne
 
 ### What you earn
 
-Rewards come from two sources of fees: the trading fees Mamo earns on [Aero](https://aero.xyz/), and the management fees Mamo collects on [stock portfolios](https://docs.mamo.bot/grow/stocks). The fees arrive in different assets, so a drop can include MAMO, Bitcoin, Ethereum, USDC and stocks such as Apple and Nvidia.
+Rewards come from two sources of fees: the trading fees Mamo earns on [Aero](https://aero.xyz/), and the management fees Mamo collects on [stock portfolios](../invest/stocks.md). The fees arrive in different assets, so a drop can include MAMO, Bitcoin, Ethereum, USDC and stocks such as Apple and Nvidia.
 
 The amounts are not fixed. What you receive, and how much, changes from week to week with the fees Mamo collects. [The Mamo Drop](the-mamo-drop.md) explains where each reward comes from and which stocks you can earn.
 
@@ -41,7 +41,7 @@ Both settings work automatically. Once your rewards are worth more than $1, Mamo
 
 The table shows where each reward goes under each setting.
 
-<table data-header-hidden><thead><tr><th width="167.64630126953125"></th><th width="256.7542724609375"></th><th></th></tr></thead><tbody><tr><td><strong>Reward</strong></td><td><strong>Compound (default)</strong></td><td><strong>Reinvest</strong></td></tr><tr><td>MAMO</td><td>Added to your MAMO balance</td><td>Stays in your MAMO Account and keeps counting toward future drops</td></tr><tr><td>Bitcoin</td><td>Converted to MAMO and added to your balance</td><td>Goes to your <a href="https://docs.mamo.bot/grow/bitcoin-cbbtc">Bitcoin Account</a></td></tr><tr><td>Ethereum</td><td>Converted to MAMO and added to your balance</td><td>Goes to your <a href="https://docs.mamo.bot/grow/ethereum-eth">Ethereum Account</a></td></tr><tr><td>USDC</td><td>Converted to MAMO and added to your balance</td><td>Goes to your <a href="https://docs.mamo.bot/grow/usd-coin-usdc">USDC Account</a></td></tr><tr><td>Stocks</td><td>Converted to MAMO and added to your balance</td><td>Go into your <a href="https://docs.mamo.bot/grow/stocks">stock portfolio</a></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="167.64630126953125"></th><th width="256.7542724609375"></th><th></th></tr></thead><tbody><tr><td><strong>Reward</strong></td><td><strong>Compound (default)</strong></td><td><strong>Reinvest</strong></td></tr><tr><td>MAMO</td><td>Added to your MAMO balance</td><td>Stays in your MAMO Account and keeps counting toward future drops</td></tr><tr><td>Bitcoin</td><td>Converted to MAMO and added to your balance</td><td>Goes to your <a href="../save/bitcoin-cbbtc.md">Bitcoin Account</a></td></tr><tr><td>Ethereum</td><td>Converted to MAMO and added to your balance</td><td>Goes to your <a href="../save/ethereum-eth.md">Ethereum Account</a></td></tr><tr><td>USDC</td><td>Converted to MAMO and added to your balance</td><td>Goes to your <a href="../save/usd-coin-usdc.md">USDC Account</a></td></tr><tr><td>Stocks</td><td>Converted to MAMO and added to your balance</td><td>Go into your <a href="../invest/stocks.md">stock portfolio</a></td></tr></tbody></table>
 
 #### Compound
 
@@ -58,8 +58,8 @@ Reinvest keeps your rewards in the assets you earned. Once your rewards are wort
 Stock rewards need a little more explanation, because a stock portfolio follows a mix of stocks that you chose:
 
 * **You already own the stock.** The reward adds to that holding.
-* **The stock is not in the mix you chose.** The stock may show up in your portfolio for a while. Mamo then [rebalances your portfolio](https://docs.mamo.bot/grow/stocks#id-3.-automated-rebalancing) back toward the percentages you set, so the mix you chose is kept.
-* **You have no portfolio yet.** Mamo creates one for you when your first stock reward arrives. You can also [open a portfolio yourself](https://docs.mamo.bot/grow/stocks#fees-and-limits) with 100 USDC.
+* **The stock is not in the mix you chose.** The stock may show up in your portfolio for a while. Mamo then [rebalances your portfolio](../invest/stocks.md#id-3.-automated-rebalancing) back toward the percentages you set, so the mix you chose is kept.
+* **You have no portfolio yet.** Mamo creates one for you when your first stock reward arrives. You can also [open a portfolio yourself](../invest/stocks.md#id-2.-deposit-usdc) with 100 USDC.
 
 Reinvest suits you if you want to spread your rewards across different assets and build up your Bitcoin, Ethereum, USDC and stock holdings over time. Your MAMO rewards still stay in your MAMO Account, so your share of future drops keeps growing too, though more slowly than under Compound.
 
