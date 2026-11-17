@@ -61,6 +61,7 @@ Stock portfolios have their own trading safeguards, including price limits and a
 All investing carries risk. Mamo is upfront about what those risks are.
 
 * **Variable rates.** Interest rates change with borrower demand. A 12% rate today may be 8% tomorrow, or even within the hour. Mamo always seeks the best available rate, but the number will change.
+* **Liquidity risk.** Withdrawals from the [USDC](https://docs.mamo.bot/grow/usd-coin-usdc), [Bitcoin](https://docs.mamo.bot/grow/bitcoin-cbbtc) and [Ethereum](https://docs.mamo.bot/grow/ethereum-eth) accounts depend on the liquidity available in the underlying markets on Moonwell and Morpho. Your deposit is lent to borrowers, so only the portion that is not currently borrowed can be withdrawn at any moment. If a market is heavily borrowed, a withdrawal for more than the available liquidity will not go through. Your funds stay in your account, and you can try again later, once borrowers repay their loans or lenders supply more. Each account page explains how to check available liquidity.
 * **Smart contract risk.** Independent audits and bug bounties reduce the chance of vulnerabilities, but no code is perfect.
 * **Protocol risk.** Mamo routes funds to Moonwell and Morpho on Base. These platforms have strong track records and multiple audits, but they are not backed by government insurance.
 * **Price risk.** Bitcoin, Ethereum, MAMO and stocks can all fall in value. Earning on an asset does not protect you from a fall in that asset's price.
