@@ -8,6 +8,6 @@
 
 ### Telegram (Mamo Bot): [**Chat with Mamo**](https://t.me/MamoAIbot)
 
-### Blog: [**Mirror**](https://mirror.xyz/mamoagent.eth)
+### Blog: [Paragraph](https://paragraph.com/@mamoagent)
 
 ### Github: [**Mamo Contracts**](https://github.com/moonwell-fi/mamo-contracts)
