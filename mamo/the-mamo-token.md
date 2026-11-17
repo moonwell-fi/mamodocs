@@ -46,7 +46,7 @@ This allocation goes to the contributors who built Mamo and continue to make Mam
 
 #### Virtuals LP (15%)
 
-These tokens are locked. They provide liquidity in the MAMO/VIRTUAL pool, which supports efficient trading with minimal slippage.
+These tokens are locked. They provide liquidity in the MAMO/VIRTUAL liquidity pool on [Aero](https://aero.xyz/), which supports efficient trading with minimal slippage.
 
 #### cbBTC LP (10%)
 
