@@ -10,6 +10,10 @@
 * [🔗 Important Links](mamo/important-links.md)
 * [🏗️ Contributors](mamo/contributors.md)
 
+## Grow
+
+* [📈 Stocks](grow/stocks.md)
+
 ## Invest
 
 * [📈 Stocks](invest/stocks.md)
