@@ -4,7 +4,7 @@ MAMO is the token at the centre of Mamo. This page explains what the token is fo
 
 ## What MAMO is for
 
-Holding MAMO lets you share in what Mamo earns. When you deposit MAMO into a [MAMO Account](../earn/mamo-account.md), you receive a share of the fees Mamo collects, paid out every week through the Mamo Drop. Your share depends on how much MAMO you have deposited.
+Holding MAMO lets you share in what Mamo earns. When you deposit MAMO into a [MAMO Account](../earn/mamo-account.md), you receive a share of the fees Mamo collects, paid out every week through the [Mamo Drop](../earn/the-mamo-drop.md). Your share depends on how much MAMO you have deposited.
 
 ## Token details
 

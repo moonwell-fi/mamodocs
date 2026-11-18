@@ -8,7 +8,7 @@ The MAMO Account is where MAMO holders share in what Mamo earns. You deposit MAM
 
 ### What is the MAMO Account?
 
-The MAMO Account holds your MAMO and earns rewards on your deposit. While your MAMO is deposited, you receive a share of the fees Mamo collects, paid out every Wednesday at 0:00 UTC through [The Mamo Drop](the-mamo-drop.md).
+The MAMO Account holds your MAMO and earns rewards on your deposit. While your MAMO is deposited, you receive a share of the fees Mamo collects, paid out every Thursday at 0:00 UTC through [The Mamo Drop](the-mamo-drop.md).
 
 Your share depends on how much MAMO you have deposited. The more MAMO in your account, the bigger your slice of each drop. There is nothing to manage after the deposit. Mamo works out your rewards for you, and they show up in your account, where you can see what you have earned.
 
