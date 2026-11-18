@@ -1,12 +1,12 @@
 # 💧 The Mamo Drop
 
-The Mamo Drop is the weekly payout that shares Mamo's fees with MAMO depositors. The drop lands every Wednesday at 0:00 UTC. Each week, Mamo gathers the fees collected and splits them among everyone with MAMO deposited in a [MAMO Account](mamo-account.md). A drop can include MAMO, Bitcoin, Ethereum, USDC and any of the 12 stocks available through Mamo.
+The Mamo Drop is the weekly payout that shares Mamo's fees with MAMO depositors. The drop lands every Thursday at 0:00 UTC. Each week, Mamo gathers the fees collected and splits them among everyone with MAMO deposited in a [MAMO Account](mamo-account.md). A drop can include MAMO, Bitcoin, Ethereum, USDC and any of the 12 stocks available through Mamo.
 
 You do not need to buy a stock or set up a [portfolio](../invest/stocks.md#id-1.-build-your-portfolio) to earn stocks. Deposit MAMO, and stocks can start arriving as part of your weekly rewards.
 
 ### At a glance
 
-<table data-header-hidden><thead><tr><th width="204.67474365234375"></th><th></th></tr></thead><tbody><tr><td><strong>Detail</strong></td><td><strong>How the drop works</strong></td></tr><tr><td>Payout</td><td>Weekly, every Wednesday at 0:00 UTC</td></tr><tr><td>Who earns</td><td>Anyone with MAMO deposited in a MAMO Account</td></tr><tr><td>Your share</td><td>Based on how much MAMO you have deposited</td></tr><tr><td>Reward sources</td><td>100% of the trading fees Mamo earns on <a href="https://aero.xyz/">Aero</a> on <a href="https://www.base.org/">Base</a>, plus the management fees Mamo collects on stock portfolios</td></tr><tr><td>Reward assets</td><td>MAMO, Bitcoin, Ethereum, USDC and 12 stocks</td></tr><tr><td>Reward settings</td><td>Compound (default) or Reinvest</td></tr><tr><td>Automatic handling</td><td>Once your rewards are worth more than $1</td></tr><tr><td>Claiming</td><td>Any time, to your wallet, in the assets you earned</td></tr><tr><td>Stock portfolio needed</td><td>No. Mamo creates one when your first stock reward arrives</td></tr><tr><td>Stock availability</td><td>Eligible jurisdictions outside the U.S.</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="204.67474365234375"></th><th></th></tr></thead><tbody><tr><td><strong>Detail</strong></td><td><strong>How the drop works</strong></td></tr><tr><td>Payout</td><td>Weekly, every Thursday at 0:00 UTC</td></tr><tr><td>Who earns</td><td>Anyone with MAMO deposited in a MAMO Account</td></tr><tr><td>Your share</td><td>Based on how much MAMO you have deposited</td></tr><tr><td>Reward sources</td><td>100% of the trading fees Mamo earns on <a href="https://aero.xyz/">Aero</a> on <a href="https://www.base.org/">Base</a>, plus the management fees Mamo collects on stock portfolios</td></tr><tr><td>Reward assets</td><td>MAMO, Bitcoin, Ethereum, USDC and 12 stocks</td></tr><tr><td>Reward settings</td><td>Compound (default) or Reinvest</td></tr><tr><td>Automatic handling</td><td>Once your rewards are worth more than $1</td></tr><tr><td>Claiming</td><td>Any time, to your wallet, in the assets you earned</td></tr><tr><td>Stock portfolio needed</td><td>No. Mamo creates one when your first stock reward arrives</td></tr><tr><td>Stock availability</td><td>Eligible jurisdictions outside the U.S.</td></tr></tbody></table>
 
 ### How the Mamo Drop works
 
@@ -14,7 +14,7 @@ The Mamo Drop is how Mamo shares what Mamo earns with the people who hold MAMO. 
 
 1. **Mamo collects fees.** Through the week, Mamo earns trading fees on Aero and collects management fees on stock portfolios.
 2. **Mamo announces the drop.** Each week, Mamo posts the drop on X at [@mamo](https://x.com/mamo), with a breakdown of what will be distributed.
-3. **Rewards reach depositors.** The drop lands every Wednesday at 0:00 UTC, and the fees are split among depositors. Rewards then stream to your account continuously through the week, not in a single lump sum.
+3. **Rewards reach depositors.** The drop lands every Thursday at 0:00 UTC, and the fees are split among depositors. Rewards then stream to your account continuously through the week, not in a single lump sum.
 4. **Your rewards are handled.** Rewards show up in your MAMO Account, where you can see what you have earned. Once they are worth more than $1, Mamo compounds or reinvests them according to your reward setting. You can also claim them to your wallet at any time.
 
 #### How your share is worked out
@@ -127,7 +127,7 @@ Not as a MAMO depositor. The fee is charged on stock portfolios, and MAMO deposi
 
 #### When do rewards arrive?
 
-Every week. The drop lands on Wednesday at 0:00 UTC. Mamo announces each drop on X, and rewards stream to your account through the week.
+Every week. The drop lands on Thursday at 0:00 UTC. Mamo announces each drop on X, and rewards stream to your account through the week.
 
 #### When are my rewards compounded or reinvested?
 
